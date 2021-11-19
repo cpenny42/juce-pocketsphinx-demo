@@ -1,0 +1,1120 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00AE686657A6BAE293BEC93D /* filename.c */ = {isa = PBXBuildFile; fileRef = ECBAD42BB49F7DF788EE8112; };
+		010D41851F299F252CB106E8 /* ms_mgau.c */ = {isa = PBXBuildFile; fileRef = 095159004C45DB83F8F47BA8; };
+		02C1F6BD5F7E373CF722BF2A /* mdef.c */ = {isa = PBXBuildFile; fileRef = B2BF6CA9C6644A41F3CAA4C7; };
+		048AF42BB43F1C4BECDBBDA4 /* ngram_search.c */ = {isa = PBXBuildFile; fileRef = C0621CDBCC99EC4E86B7A099; };
+		049DC9CF56CE8F48DED96394 /* allphone_search.c */ = {isa = PBXBuildFile; fileRef = 7A39F682ABF10F89D8FAF75D; };
+		084142C01F9E10687F7E3C76 /* include_juce_events.mm */ = {isa = PBXBuildFile; fileRef = B184FAA8001E2A7279E57ED8; };
+		0A261E8B3C6F35062E28BA0A /* fe_sigproc.c */ = {isa = PBXBuildFile; fileRef = F024C6C69E734DAAF9B8A705; };
+		0C9F3034FB85D1C89D485269 /* lm_trie.c */ = {isa = PBXBuildFile; fileRef = 59EF98326542EA99BBDA8593; };
+		0DB291A8764E63C355FC56DB /* err.c */ = {isa = PBXBuildFile; fileRef = 5B993238C1103834AA818ABE; };
+		0F87F78D6B2A16D23FFCF30F /* fe_warp_inverse_linear.c */ = {isa = PBXBuildFile; fileRef = DCF714B79C6CCE4A9D3C2539; };
+		11B120BA9D84831320A7986E /* dict2pid.c */ = {isa = PBXBuildFile; fileRef = DEA2C1E7E848065176DF637E; };
+		12B34E6D6AC2C18EBEF625B9 /* lda.c */ = {isa = PBXBuildFile; fileRef = A430D85D8CE03A897380B060; };
+		14498AC499C84D0953CD65D7 /* dict.c */ = {isa = PBXBuildFile; fileRef = 1610A15E2179CE016BB7665D; };
+		17F468878EF4F8BB11E49CF2 /* fe_prespch_buf.c */ = {isa = PBXBuildFile; fileRef = 80B941596AD44BCE5EDAA387; };
+		20795942A4DF8A92B6582E31 /* ngram_search_fwdtree.c */ = {isa = PBXBuildFile; fileRef = FC268543463162E50D7645AA; };
+		24D24521DDC1C4D78B70D42D /* profile.c */ = {isa = PBXBuildFile; fileRef = F18AA90A61B8B40DA3F88BC7; };
+		2C5E24429AB8BD49194A8793 /* mmio.c */ = {isa = PBXBuildFile; fileRef = 009F80B1E23A3C024148714E; };
+		316AA6DB1EFF467B6F9AB072 /* bitvec.c */ = {isa = PBXBuildFile; fileRef = 8DD6F78D6436E0A9ED2C0BF7; };
+		362603D0D3A9CDCCF01B5FE2 /* slamch.c */ = {isa = PBXBuildFile; fileRef = E486648DCAB35033794E6079; };
+		391D2589FC40200F6BFB7594 /* jsgf_parser.c */ = {isa = PBXBuildFile; fileRef = 6F606FC0FA42093B1658A106; };
+		39656CD993BA51F650A6F005 /* jsgf.c */ = {isa = PBXBuildFile; fileRef = 636A2A01A85697E293C57A46; };
+		398EE8E67DD5A9AEC3E2B0C0 /* Foundation.framework */ = {isa = PBXBuildFile; fileRef = 8C7FE8E179F6CFEDFF423869; };
+		3AB3A1509498E67C094FD6F8 /* MainComponent.cpp */ = {isa = PBXBuildFile; fileRef = 22DDC48A4C340A06E659CA30; };
+		3BEE5D51704FA4B2A0BDC195 /* cmd_ln.c */ = {isa = PBXBuildFile; fileRef = 7E9790D1E73E2756885D7293; };
+		4696A59D94E6BD8F78F8D6DA /* genrand.c */ = {isa = PBXBuildFile; fileRef = A4A3EABCF3E5650721311005; };
+		46B9493431C8781E767487C5 /* ngram_model_trie.c */ = {isa = PBXBuildFile; fileRef = DB05391470EDFDE9E8624FEB; };
+		48368B0251C26C6412732DE3 /* fsg_search.c */ = {isa = PBXBuildFile; fileRef = 0488B2A5C65351314A274183; };
+		485FEA592F70605C24F03906 /* state_align_search.c */ = {isa = PBXBuildFile; fileRef = EDB42E82D53E0E6DC9460B6D; };
+		48F25FE5EED77975FC8EB7A5 /* Cocoa.framework */ = {isa = PBXBuildFile; fileRef = 377D4830D68A955C39BE262B; };
+		491AD7145FF33F3BD6DC9B7E /* ad_base.c */ = {isa = PBXBuildFile; fileRef = 49F84E3756674E643C856AE0; };
+		496E0DD5C473C19C05898FD5 /* pocketsphinx.c */ = {isa = PBXBuildFile; fileRef = B2DB5A60EF0025CEC3A5D175; };
+		4CAB45BA421D6F5B54F38EB5 /* matrix.c */ = {isa = PBXBuildFile; fileRef = 6652EECA35C74D9AB32FD4DB; };
+		550CA3496E63ADDD5B5376B4 /* kws_search.c */ = {isa = PBXBuildFile; fileRef = A0294C262B1287ECE2AF7343; };
+		5A5F5711E9A9BEF4588621D7 /* fe_warp_affine.c */ = {isa = PBXBuildFile; fileRef = C70B22ABB3B8B8A4BC029989; };
+		6096E1E1268548A6CE83F9CD /* fe_noise.c */ = {isa = PBXBuildFile; fileRef = FB91769BF097BDED31314908; };
+		622BB581C06C1782FBF2E3B4 /* heap.c */ = {isa = PBXBuildFile; fileRef = 68CAAC3AE0740D3E7E8BF6F5; };
+		644D4BA9577FE5710B52F84C /* hmm.c */ = {isa = PBXBuildFile; fileRef = F074F56408F973B041B4614C; };
+		69D53D4D8E67B3D51821AD94 /* s2_semi_mgau.c */ = {isa = PBXBuildFile; fileRef = F9C4B5974AA0BC30D32E1905; };
+		6D5D15174468251AA10AB604 /* ckd_alloc.c */ = {isa = PBXBuildFile; fileRef = 7F0EB408DAA2DA91B90B224A; };
+		6E34776B14E810A098EB5232 /* sbthread.c */ = {isa = PBXBuildFile; fileRef = 911909E999DAAC9C3C372702; };
+		6F00BBC911997DEE020BF0EC /* glist.c */ = {isa = PBXBuildFile; fileRef = F525E8BA841C18BA803B9436; };
+		723CB89C10D8480FC5F51522 /* vector.c */ = {isa = PBXBuildFile; fileRef = 60AC5A149600D0677F51131C; };
+		7511F711A2F94022C8D2C871 /* IOKit.framework */ = {isa = PBXBuildFile; fileRef = 454203726A0B397A66BE004C; };
+		761D56796EDE6B46EE040FF5 /* ms_gauden.c */ = {isa = PBXBuildFile; fileRef = A24F7B0A0AA241369902FFB6; };
+		770D532BE43A7D185E280A45 /* RecentFilesMenuTemplate.nib */ = {isa = PBXBuildFile; fileRef = 696C9E9CA63DF61CA121C3B3; };
+		7B394299A6BA5C06ED422A0D /* acmod.c */ = {isa = PBXBuildFile; fileRef = 662A9BB779B569439C5F39AB; };
+		7D9C8804476157713A945039 /* case.c */ = {isa = PBXBuildFile; fileRef = 0FC2C21090EF4EE348DF38A8; };
+		7DCA2842DE2912C1EC754DBA /* fe_interface.c */ = {isa = PBXBuildFile; fileRef = 78F5FD5D35E7D3C6B0CD5FB6; };
+		7F93ACCFBCE3CFEC6453E459 /* ngram_model_set.c */ = {isa = PBXBuildFile; fileRef = E75F256C34DE959BBC584FD3; };
+		801995DDCC704ED576553A16 /* ngram_model.c */ = {isa = PBXBuildFile; fileRef = A0E143B0571C74404DE4DAB6; };
+		8152C1233E0E0E9AB5E5B1C9 /* fe_warp.c */ = {isa = PBXBuildFile; fileRef = 243B26E2783956E1EA4D9C8F; };
+		8647DEA13FDCE591E9CA2257 /* slapack_lite.c */ = {isa = PBXBuildFile; fileRef = 2C03D488E3DFF631B6817BC2; };
+		890D09851C33B0002DBFAE30 /* ps_alignment.c */ = {isa = PBXBuildFile; fileRef = E767C31D39D08D71FB6F5C68; };
+		8972881F43DAD2E2041F3613 /* strfuncs.c */ = {isa = PBXBuildFile; fileRef = 63340CA56D5102BA5086EB5C; };
+		8D9813076D7F4764717CF4D6 /* cmn.c */ = {isa = PBXBuildFile; fileRef = B194385541C9A6EFFD02CF53; };
+		957676B1F4E8588C8456BF88 /* ptm_mgau.c */ = {isa = PBXBuildFile; fileRef = 7CA15D0E208C26FA3C97FFFF; };
+		9589128A6FC0022EDD03E780 /* ps_mllr.c */ = {isa = PBXBuildFile; fileRef = 3C5757CEC7C5D8095C740D7B; };
+		962AF5DA2650A9EDDC5339C5 /* agc.c */ = {isa = PBXBuildFile; fileRef = 542E383BC36C2C9EBB49F63F; };
+		963E958E4CBBF2CE21BD9793 /* hash_table.c */ = {isa = PBXBuildFile; fileRef = AB991635D848FF0404A00C20; };
+		9A00787549577F6170E501CB /* ngrams_raw.c */ = {isa = PBXBuildFile; fileRef = 06C733BE75C0ECED219A9FE2; };
+		9AD18CE40CB12732A4071D48 /* App */ = {isa = PBXBuildFile; fileRef = BAE3364CBD98BE25130F4BAB; };
+		9E3BAEC4E1B5EF6AFDD6608C /* f2c_lite.c */ = {isa = PBXBuildFile; fileRef = 64D970016DA6649BF03D1D4E; };
+		9F287CC8913456EF090049A4 /* bio.c */ = {isa = PBXBuildFile; fileRef = 92374759F6643E8157887EAA; };
+		A2152629748A68603502C5C5 /* include_juce_core.mm */ = {isa = PBXBuildFile; fileRef = 03EE6F3B0B7556C096207FEF; };
+		A410DD954D4F41DBB9D6D5BC /* blkarray_list.c */ = {isa = PBXBuildFile; fileRef = 11AED5FA80B07D7B533088CC; };
+		A5B6BB3CCC9D43066A0EA8D0 /* logmath.c */ = {isa = PBXBuildFile; fileRef = D493355E915DBEBF856E88AE; };
+		A6F16B30F429DAE46820F127 /* include_juce_data_structures.mm */ = {isa = PBXBuildFile; fileRef = 09CF6110E6F7FB29B152802D; };
+		A74E49A1C3486E9FC8C78E8F /* errno.c */ = {isa = PBXBuildFile; fileRef = 6A0234C03B231AB4965C1C88; };
+		A7AB3D2FE02E0085FC919238 /* Main.cpp */ = {isa = PBXBuildFile; fileRef = 246EEA8E64F9E16F53B3D427; };
+		A97BADCE44A9FC1BAD589967 /* ps_lattice.c */ = {isa = PBXBuildFile; fileRef = FC6E330DBA742819D85AED4D; };
+		AE14C2F0496191DF13385E87 /* include_juce_gui_basics.mm */ = {isa = PBXBuildFile; fileRef = 5AA480B873A3B11AD31AFB0F; };
+		AEA57D2E09CE992A07D0754A /* jsgf_scanner.c */ = {isa = PBXBuildFile; fileRef = EFB206A39DA251C23685C56C; };
+		BAA0ADC9A56AD1C3664514E9 /* bin_mdef.c */ = {isa = PBXBuildFile; fileRef = AC98D822DEC9B0E7D829CA2C; };
+		BFF1A692F77E58DD4898EA10 /* cmn_live.c */ = {isa = PBXBuildFile; fileRef = EE31A9C1CF21A8D7D50B2DF0; };
+		C09A3F2806996B48A942598A /* BinaryData.cpp */ = {isa = PBXBuildFile; fileRef = D2E950D52ACC4AE44E5F378B; };
+		C12DD4EFC0ECE86CB625A41B /* phone_loop_search.c */ = {isa = PBXBuildFile; fileRef = 588C0CBC44E83D071B942CBC; };
+		C15C1863805E2498E30A544C /* kws_detections.c */ = {isa = PBXBuildFile; fileRef = F055E6055BD9138E91212233; };
+		C3395A996CBBFF9572DB89F5 /* yin.c */ = {isa = PBXBuildFile; fileRef = 2311A596E33B986F8EF3E790; };
+		C4EBA7B289105DF27F988B08 /* feat.c */ = {isa = PBXBuildFile; fileRef = CDCA2DE090D4F8773CD9BC9A; };
+		C5A4A5FCF65BFB9D04B18EFF /* priority_queue.c */ = {isa = PBXBuildFile; fileRef = 08D8A7F42415B6E71ADA86A4; };
+		C72265D653CAA3EA2D55977D /* include_juce_graphics.mm */ = {isa = PBXBuildFile; fileRef = 0403E0E49D91E350D5C18C1D; };
+		CE5A4175789DAC738D32BCF3 /* QuartzCore.framework */ = {isa = PBXBuildFile; fileRef = 7D79F2FD94970271B4921CCA; };
+		D033CD97356CAE79B97FCEFD /* pio.c */ = {isa = PBXBuildFile; fileRef = C19DD0DD609D7BDB43C169A4; };
+		D139306DD152920CEF5562CC /* listelem_alloc.c */ = {isa = PBXBuildFile; fileRef = EB6DA66E3A8C3341F2EFD67F; };
+		D195BFC48960C23D5197718A /* fsg_model.c */ = {isa = PBXBuildFile; fileRef = 6F3BDAD1C030A519D0455811; };
+		D35C518584CED6353D9AF858 /* ngram_search_fwdflat.c */ = {isa = PBXBuildFile; fileRef = 9EA6A8CFDD6406517AFE251B; };
+		D44C2079EA44A17EBA11CD6A /* fixlog.c */ = {isa = PBXBuildFile; fileRef = 5FF5E00CE790A883F4046B25; };
+		D5B9001AEDCE83E2DAFD3A6A /* fsg_lextree.c */ = {isa = PBXBuildFile; fileRef = FEB5A16562A0876FB1A4CF40; };
+		DAB640812F87E5B513E51575 /* ad_openal.c */ = {isa = PBXBuildFile; fileRef = 25E455116E99EB605D9026A4; };
+		E19DEA7FB58E13ACF71E0874 /* fsg_history.c */ = {isa = PBXBuildFile; fileRef = 9F5EB6E5749A8D22DBCB6FDF; };
+		E2BDA7DDF5544A4D115A5AFA /* bitarr.c */ = {isa = PBXBuildFile; fileRef = E64A2876BDCA79DA48AFF21E; };
+		E54012F38E09348D806BDB6F /* ms_senone.c */ = {isa = PBXBuildFile; fileRef = 6A11F88B0AC6F4E284DC11EA; };
+		E5C059E03F948B93A6EC2853 /* lm_trie_quant.c */ = {isa = PBXBuildFile; fileRef = 55AE8967D3295D9927FB9DCC; };
+		EA3F55148E1976147A6D781C /* Carbon.framework */ = {isa = PBXBuildFile; fileRef = 654370901844ECE979EB0811; };
+		EABED2EF86B63FC178BF62B7 /* blas_lite.c */ = {isa = PBXBuildFile; fileRef = 474A31FA40C6D8ACA8B47775; };
+		EDB0B30C6CDEFA5C2EC15C87 /* tmat.c */ = {isa = PBXBuildFile; fileRef = 0A01DF2E38999B83F0AD97BC; };
+		F04CC283CE34A8952E3D28D5 /* fe_warp_piecewise_linear.c */ = {isa = PBXBuildFile; fileRef = C1B092304205D7AB5904F70E; };
+		F806A77EC4E852ACCB800CF1 /* dtoa.c */ = {isa = PBXBuildFile; fileRef = B77829502D1235E609C3CD3E; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		006D9F2CC81A4FA5D469F55C /* allphone_search.h */ /* allphone_search.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = allphone_search.h; path = ../../../../../app/lib/src/pocketsphinx/allphone_search.h; sourceTree = SOURCE_ROOT; };
+		009F80B1E23A3C024148714E /* mmio.c */ /* mmio.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = mmio.c; path = ../../../../../app/lib/src/sphinxbase/util/mmio.c; sourceTree = SOURCE_ROOT; };
+		00AF9589C0EDF47F1CB41249 /* phone_loop_search.h */ /* phone_loop_search.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = phone_loop_search.h; path = ../../../../../app/lib/src/pocketsphinx/phone_loop_search.h; sourceTree = SOURCE_ROOT; };
+		03EE6F3B0B7556C096207FEF /* include_juce_core.mm */ /* include_juce_core.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = include_juce_core.mm; path = ../../JuceLibraryCode/include_juce_core.mm; sourceTree = SOURCE_ROOT; };
+		03EEE57E98E7BE462C430892 /* prim_type.h */ /* prim_type.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = prim_type.h; path = ../../../../../app/lib/include/sphinxbase/prim_type.h; sourceTree = SOURCE_ROOT; };
+		0403E0E49D91E350D5C18C1D /* include_juce_graphics.mm */ /* include_juce_graphics.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = include_juce_graphics.mm; path = ../../JuceLibraryCode/include_juce_graphics.mm; sourceTree = SOURCE_ROOT; };
+		04696F444A5E14EAFE2F241B /* ad_win32.c */ /* ad_win32.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = ad_win32.c; path = ../../../../../app/lib/src/sphinxad/ad_win32.c; sourceTree = SOURCE_ROOT; };
+		0488B2A5C65351314A274183 /* fsg_search.c */ /* fsg_search.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = fsg_search.c; path = ../../../../../app/lib/src/pocketsphinx/fsg_search.c; sourceTree = SOURCE_ROOT; };
+		06C733BE75C0ECED219A9FE2 /* ngrams_raw.c */ /* ngrams_raw.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = ngrams_raw.c; path = ../../../../../app/lib/src/sphinxbase/lm/ngrams_raw.c; sourceTree = SOURCE_ROOT; };
+		08D8A7F42415B6E71ADA86A4 /* priority_queue.c */ /* priority_queue.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = priority_queue.c; path = ../../../../../app/lib/src/sphinxbase/util/priority_queue.c; sourceTree = SOURCE_ROOT; };
+		095159004C45DB83F8F47BA8 /* ms_mgau.c */ /* ms_mgau.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = ms_mgau.c; path = ../../../../../app/lib/src/pocketsphinx/ms_mgau.c; sourceTree = SOURCE_ROOT; };
+		09CF6110E6F7FB29B152802D /* include_juce_data_structures.mm */ /* include_juce_data_structures.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = include_juce_data_structures.mm; path = ../../JuceLibraryCode/include_juce_data_structures.mm; sourceTree = SOURCE_ROOT; };
+		0A01DF2E38999B83F0AD97BC /* tmat.c */ /* tmat.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = tmat.c; path = ../../../../../app/lib/src/pocketsphinx/tmat.c; sourceTree = SOURCE_ROOT; };
+		0B6D7811331310D071F04644 /* juce_data_structures */ /* juce_data_structures */ = {isa = PBXFileReference; lastKnownFileType = folder; name = juce_data_structures; path = "~/JUCE/modules/juce_data_structures"; sourceTree = "<absolute>"; };
+		0EAD57C5C1E476FCE1C31BA6 /* Info-App.plist */ /* Info-App.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Info-App.plist"; path = "Info-App.plist"; sourceTree = SOURCE_ROOT; };
+		0FC2C21090EF4EE348DF38A8 /* case.c */ /* case.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = case.c; path = ../../../../../app/lib/src/sphinxbase/util/case.c; sourceTree = SOURCE_ROOT; };
+		104D02208891E28D5BFFE28B /* sphinxbase_export.h */ /* sphinxbase_export.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = sphinxbase_export.h; path = ../../../../../app/lib/include/sphinxbase/sphinxbase_export.h; sourceTree = SOURCE_ROOT; };
+		105308B73A610BFAAB167D9A /* bin_mdef.h */ /* bin_mdef.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = bin_mdef.h; path = ../../../../../app/lib/src/pocketsphinx/bin_mdef.h; sourceTree = SOURCE_ROOT; };
+		11AED5FA80B07D7B533088CC /* blkarray_list.c */ /* blkarray_list.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = blkarray_list.c; path = ../../../../../app/lib/src/pocketsphinx/blkarray_list.c; sourceTree = SOURCE_ROOT; };
+		130E3B7E0DAE6E40712F1776 /* jsgf.h */ /* jsgf.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = jsgf.h; path = ../../../../../app/lib/include/sphinxbase/jsgf.h; sourceTree = SOURCE_ROOT; };
+		14BE0D7C8D7B9E5D0325CC26 /* pio.h */ /* pio.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = pio.h; path = ../../../../../app/lib/include/sphinxbase/pio.h; sourceTree = SOURCE_ROOT; };
+		14DC6A91C92ABBBCDBAD10A2 /* ckd_alloc.h */ /* ckd_alloc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ckd_alloc.h; path = ../../../../../app/lib/include/sphinxbase/ckd_alloc.h; sourceTree = SOURCE_ROOT; };
+		1610A15E2179CE016BB7665D /* dict.c */ /* dict.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = dict.c; path = ../../../../../app/lib/src/pocketsphinx/dict.c; sourceTree = SOURCE_ROOT; };
+		1E1B7498493F24C39564EAFF /* fsg_lextree.h */ /* fsg_lextree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = fsg_lextree.h; path = ../../../../../app/lib/src/pocketsphinx/fsg_lextree.h; sourceTree = SOURCE_ROOT; };
+		1EB573E9F61453C2FD88D658 /* lm_trie_quant.h */ /* lm_trie_quant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = lm_trie_quant.h; path = ../../../../../app/lib/src/sphinxbase/lm/lm_trie_quant.h; sourceTree = SOURCE_ROOT; };
+		1ED4ECA1AF92AA5903E3DDE5 /* cmdln_macro.h */ /* cmdln_macro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = cmdln_macro.h; path = ../../../../../app/lib/include/pocketsphinx/cmdln_macro.h; sourceTree = SOURCE_ROOT; };
+		1FE3B64CFE5C109E63D802F1 /* pocketsphinx_internal.h */ /* pocketsphinx_internal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = pocketsphinx_internal.h; path = ../../../../../app/lib/src/pocketsphinx/pocketsphinx_internal.h; sourceTree = SOURCE_ROOT; };
+		20257E84259384B998433001 /* ps_lattice_internal.h */ /* ps_lattice_internal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ps_lattice_internal.h; path = ../../../../../app/lib/src/pocketsphinx/ps_lattice_internal.h; sourceTree = SOURCE_ROOT; };
+		2204D449202327D15E287448 /* juce_graphics */ /* juce_graphics */ = {isa = PBXFileReference; lastKnownFileType = folder; name = juce_graphics; path = "~/JUCE/modules/juce_graphics"; sourceTree = "<absolute>"; };
+		220B908961C20FD9884AE228 /* ps_mllr.h */ /* ps_mllr.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ps_mllr.h; path = ../../../../../app/lib/include/pocketsphinx/ps_mllr.h; sourceTree = SOURCE_ROOT; };
+		22DDC48A4C340A06E659CA30 /* MainComponent.cpp */ /* MainComponent.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = MainComponent.cpp; path = ../../Source/MainComponent.cpp; sourceTree = SOURCE_ROOT; };
+		22F48CD6FD545E0C07D84BEE /* fe_warp.h */ /* fe_warp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = fe_warp.h; path = ../../../../../app/lib/src/sphinxbase/fe/fe_warp.h; sourceTree = SOURCE_ROOT; };
+		2311A596E33B986F8EF3E790 /* yin.c */ /* yin.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = yin.c; path = ../../../../../app/lib/src/sphinxbase/fe/yin.c; sourceTree = SOURCE_ROOT; };
+		242C597A0127A1ACE603D53D /* mdef.h */ /* mdef.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = mdef.h; path = ../../../../../app/lib/src/pocketsphinx/mdef.h; sourceTree = SOURCE_ROOT; };
+		243B26E2783956E1EA4D9C8F /* fe_warp.c */ /* fe_warp.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = fe_warp.c; path = ../../../../../app/lib/src/sphinxbase/fe/fe_warp.c; sourceTree = SOURCE_ROOT; };
+		246EEA8E64F9E16F53B3D427 /* Main.cpp */ /* Main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Main.cpp; path = ../../Source/Main.cpp; sourceTree = SOURCE_ROOT; };
+		24865C214421047A27E6E1EB /* ngram_model_trie.h */ /* ngram_model_trie.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ngram_model_trie.h; path = ../../../../../app/lib/src/sphinxbase/lm/ngram_model_trie.h; sourceTree = SOURCE_ROOT; };
+		25E455116E99EB605D9026A4 /* ad_openal.c */ /* ad_openal.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = ad_openal.c; path = ../../../../../app/lib/src/sphinxad/ad_openal.c; sourceTree = SOURCE_ROOT; };
+		26B9E4A4976E7F8E95EDDEEB /* tmat.h */ /* tmat.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = tmat.h; path = ../../../../../app/lib/src/pocketsphinx/tmat.h; sourceTree = SOURCE_ROOT; };
+		2C03D488E3DFF631B6817BC2 /* slapack_lite.c */ /* slapack_lite.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = slapack_lite.c; path = ../../../../../app/lib/src/sphinxbase/util/slapack_lite.c; sourceTree = SOURCE_ROOT; };
+		2C3491060109FDC3D86C9D7E /* profile.h */ /* profile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = profile.h; path = ../../../../../app/lib/include/sphinxbase/profile.h; sourceTree = SOURCE_ROOT; };
+		2C683D25B7C1CA5DB251A4FB /* clapack_lite.h */ /* clapack_lite.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = clapack_lite.h; path = ../../../../../app/lib/include/sphinxbase/clapack_lite.h; sourceTree = SOURCE_ROOT; };
+		325DC3193395B8F1A0147846 /* kws_search.h */ /* kws_search.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = kws_search.h; path = ../../../../../app/lib/src/pocketsphinx/kws_search.h; sourceTree = SOURCE_ROOT; };
+		3574C84D851A1F22A54D862A /* ngram_search.h */ /* ngram_search.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ngram_search.h; path = ../../../../../app/lib/src/pocketsphinx/ngram_search.h; sourceTree = SOURCE_ROOT; };
+		377D4830D68A955C39BE262B /* Cocoa.framework */ /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		3887F7FB33D5DA1615AD38A6 /* cmn.h */ /* cmn.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = cmn.h; path = ../../../../../app/lib/include/sphinxbase/cmn.h; sourceTree = SOURCE_ROOT; };
+		3A29E90290301800381A7B71 /* kws_detections.h */ /* kws_detections.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = kws_detections.h; path = ../../../../../app/lib/src/pocketsphinx/kws_detections.h; sourceTree = SOURCE_ROOT; };
+		3C5757CEC7C5D8095C740D7B /* ps_mllr.c */ /* ps_mllr.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = ps_mllr.c; path = ../../../../../app/lib/src/pocketsphinx/ps_mllr.c; sourceTree = SOURCE_ROOT; };
+		3CA6854EB1BB6205CA72FCC9 /* ms_gauden.h */ /* ms_gauden.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ms_gauden.h; path = ../../../../../app/lib/src/pocketsphinx/ms_gauden.h; sourceTree = SOURCE_ROOT; };
+		3D9DD4EBEE6375AD3B348CEE /* lm_trie.h */ /* lm_trie.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = lm_trie.h; path = ../../../../../app/lib/src/sphinxbase/lm/lm_trie.h; sourceTree = SOURCE_ROOT; };
+		40345441C8547A18657A4719 /* ad_pulse.c */ /* ad_pulse.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = ad_pulse.c; path = ../../../../../app/lib/src/sphinxad/ad_pulse.c; sourceTree = SOURCE_ROOT; };
+		41C98FC41BCD2AC83E1980FD /* s2_semi_mgau.h */ /* s2_semi_mgau.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = s2_semi_mgau.h; path = ../../../../../app/lib/src/pocketsphinx/s2_semi_mgau.h; sourceTree = SOURCE_ROOT; };
+		43FDD1FEC460C32D822BE3E7 /* hmm.h */ /* hmm.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = hmm.h; path = ../../../../../app/lib/src/pocketsphinx/hmm.h; sourceTree = SOURCE_ROOT; };
+		4401A36BF2EF604EC454650D /* fsg_search_internal.h */ /* fsg_search_internal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = fsg_search_internal.h; path = ../../../../../app/lib/src/pocketsphinx/fsg_search_internal.h; sourceTree = SOURCE_ROOT; };
+		454203726A0B397A66BE004C /* IOKit.framework */ /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
+		458454E74BD9B291EE4F597F /* ngram_model_set.h */ /* ngram_model_set.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ngram_model_set.h; path = ../../../../../app/lib/src/sphinxbase/lm/ngram_model_set.h; sourceTree = SOURCE_ROOT; };
+		45F1513267E64007F56B22C4 /* sbthread.h */ /* sbthread.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = sbthread.h; path = ../../../../../app/lib/include/sphinxbase/sbthread.h; sourceTree = SOURCE_ROOT; };
+		473AFB8BD8B5E716495F9936 /* juce_gui_basics */ /* juce_gui_basics */ = {isa = PBXFileReference; lastKnownFileType = folder; name = juce_gui_basics; path = "~/JUCE/modules/juce_gui_basics"; sourceTree = "<absolute>"; };
+		474A31FA40C6D8ACA8B47775 /* blas_lite.c */ /* blas_lite.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = blas_lite.c; path = ../../../../../app/lib/src/sphinxbase/util/blas_lite.c; sourceTree = SOURCE_ROOT; };
+		49F84E3756674E643C856AE0 /* ad_base.c */ /* ad_base.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = ad_base.c; path = ../../../../../app/lib/src/sphinxad/ad_base.c; sourceTree = SOURCE_ROOT; };
+		4A22D56CBC500E66941F152E /* dict2pid.h */ /* dict2pid.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = dict2pid.h; path = ../../../../../app/lib/src/pocketsphinx/dict2pid.h; sourceTree = SOURCE_ROOT; };
+		4C8AFDA6E86D5F177BEBEFC2 /* tied_mgau_common.h */ /* tied_mgau_common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = tied_mgau_common.h; path = ../../../../../app/lib/src/pocketsphinx/tied_mgau_common.h; sourceTree = SOURCE_ROOT; };
+		4DED876ADB1DF14D5B8794C0 /* case.h */ /* case.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = case.h; path = ../../../../../app/lib/include/sphinxbase/case.h; sourceTree = SOURCE_ROOT; };
+		52E6B4DF4F32BA7590DB09CC /* err.h */ /* err.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = err.h; path = ../../../../../app/lib/include/sphinxbase/err.h; sourceTree = SOURCE_ROOT; };
+		542E383BC36C2C9EBB49F63F /* agc.c */ /* agc.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = agc.c; path = ../../../../../app/lib/src/sphinxbase/feat/agc.c; sourceTree = SOURCE_ROOT; };
+		55AE8967D3295D9927FB9DCC /* lm_trie_quant.c */ /* lm_trie_quant.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = lm_trie_quant.c; path = ../../../../../app/lib/src/sphinxbase/lm/lm_trie_quant.c; sourceTree = SOURCE_ROOT; };
+		588C0CBC44E83D071B942CBC /* phone_loop_search.c */ /* phone_loop_search.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = phone_loop_search.c; path = ../../../../../app/lib/src/pocketsphinx/phone_loop_search.c; sourceTree = SOURCE_ROOT; };
+		593E2977619B8AB52938E2DB /* ps_search.h */ /* ps_search.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ps_search.h; path = ../../../../../app/lib/include/pocketsphinx/ps_search.h; sourceTree = SOURCE_ROOT; };
+		59EF98326542EA99BBDA8593 /* lm_trie.c */ /* lm_trie.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = lm_trie.c; path = ../../../../../app/lib/src/sphinxbase/lm/lm_trie.c; sourceTree = SOURCE_ROOT; };
+		5A60EEB503296673EA0FA16B /* state_align_search.h */ /* state_align_search.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = state_align_search.h; path = ../../../../../app/lib/src/pocketsphinx/state_align_search.h; sourceTree = SOURCE_ROOT; };
+		5AA480B873A3B11AD31AFB0F /* include_juce_gui_basics.mm */ /* include_juce_gui_basics.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = include_juce_gui_basics.mm; path = ../../JuceLibraryCode/include_juce_gui_basics.mm; sourceTree = SOURCE_ROOT; };
+		5B993238C1103834AA818ABE /* err.c */ /* err.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = err.c; path = ../../../../../app/lib/src/sphinxbase/util/err.c; sourceTree = SOURCE_ROOT; };
+		5C296FBD4F532525DF4EFB75 /* ngram_model_internal.h */ /* ngram_model_internal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ngram_model_internal.h; path = ../../../../../app/lib/src/sphinxbase/lm/ngram_model_internal.h; sourceTree = SOURCE_ROOT; };
+		5C8CB063ADD2200988489247 /* ms_mgau.h */ /* ms_mgau.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ms_mgau.h; path = ../../../../../app/lib/src/pocketsphinx/ms_mgau.h; sourceTree = SOURCE_ROOT; };
+		5D8EEB598868B6145882AEA7 /* listelem_alloc.h */ /* listelem_alloc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = listelem_alloc.h; path = ../../../../../app/lib/include/sphinxbase/listelem_alloc.h; sourceTree = SOURCE_ROOT; };
+		5DD44292D0BE452E278F6EB7 /* glist.h */ /* glist.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = glist.h; path = ../../../../../app/lib/include/sphinxbase/glist.h; sourceTree = SOURCE_ROOT; };
+		5EF312E1887482BAC03C1D62 /* fe_prespch_buf.h */ /* fe_prespch_buf.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = fe_prespch_buf.h; path = ../../../../../app/lib/src/sphinxbase/fe/fe_prespch_buf.h; sourceTree = SOURCE_ROOT; };
+		5FF5E00CE790A883F4046B25 /* fixlog.c */ /* fixlog.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = fixlog.c; path = ../../../../../app/lib/src/sphinxbase/fe/fixlog.c; sourceTree = SOURCE_ROOT; };
+		608A4D2EFF55F084634BA0DB /* ptm_mgau.h */ /* ptm_mgau.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ptm_mgau.h; path = ../../../../../app/lib/src/pocketsphinx/ptm_mgau.h; sourceTree = SOURCE_ROOT; };
+		60AC5A149600D0677F51131C /* vector.c */ /* vector.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = vector.c; path = ../../../../../app/lib/src/pocketsphinx/vector.c; sourceTree = SOURCE_ROOT; };
+		610F84BC646AF5F070728CF7 /* pocketsphinx.h */ /* pocketsphinx.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = pocketsphinx.h; path = ../../../../../app/lib/include/pocketsphinx/pocketsphinx.h; sourceTree = SOURCE_ROOT; };
+		62CEC1D20AD676113F1698BF /* fsg_model.h */ /* fsg_model.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = fsg_model.h; path = ../../../../../app/lib/include/sphinxbase/fsg_model.h; sourceTree = SOURCE_ROOT; };
+		6313464F593F643260E2C8AB /* ngram_search_fwdtree.h */ /* ngram_search_fwdtree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ngram_search_fwdtree.h; path = ../../../../../app/lib/src/pocketsphinx/ngram_search_fwdtree.h; sourceTree = SOURCE_ROOT; };
+		63340CA56D5102BA5086EB5C /* strfuncs.c */ /* strfuncs.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = strfuncs.c; path = ../../../../../app/lib/src/sphinxbase/util/strfuncs.c; sourceTree = SOURCE_ROOT; };
+		636A2A01A85697E293C57A46 /* jsgf.c */ /* jsgf.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = jsgf.c; path = ../../../../../app/lib/src/sphinxbase/lm/jsgf.c; sourceTree = SOURCE_ROOT; };
+		645705C554787730674E2A9D /* jsgf_parser.h */ /* jsgf_parser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = jsgf_parser.h; path = ../../../../../app/lib/src/sphinxbase/lm/jsgf_parser.h; sourceTree = SOURCE_ROOT; };
+		64D970016DA6649BF03D1D4E /* f2c_lite.c */ /* f2c_lite.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = f2c_lite.c; path = ../../../../../app/lib/src/sphinxbase/util/f2c_lite.c; sourceTree = SOURCE_ROOT; };
+		6500D3FCED3D1E86A73E4617 /* heap.h */ /* heap.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = heap.h; path = ../../../../../app/lib/include/sphinxbase/heap.h; sourceTree = SOURCE_ROOT; };
+		654370901844ECE979EB0811 /* Carbon.framework */ /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = System/Library/Frameworks/Carbon.framework; sourceTree = SDKROOT; };
+		662A9BB779B569439C5F39AB /* acmod.c */ /* acmod.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = acmod.c; path = ../../../../../app/lib/src/pocketsphinx/acmod.c; sourceTree = SOURCE_ROOT; };
+		6652EECA35C74D9AB32FD4DB /* matrix.c */ /* matrix.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = matrix.c; path = ../../../../../app/lib/src/sphinxbase/util/matrix.c; sourceTree = SOURCE_ROOT; };
+		68CAAC3AE0740D3E7E8BF6F5 /* heap.c */ /* heap.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = heap.c; path = ../../../../../app/lib/src/sphinxbase/util/heap.c; sourceTree = SOURCE_ROOT; };
+		696C9E9CA63DF61CA121C3B3 /* RecentFilesMenuTemplate.nib */ /* RecentFilesMenuTemplate.nib */ = {isa = PBXFileReference; lastKnownFileType = file.nib; name = RecentFilesMenuTemplate.nib; path = RecentFilesMenuTemplate.nib; sourceTree = SOURCE_ROOT; };
+		6A0234C03B231AB4965C1C88 /* errno.c */ /* errno.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = errno.c; path = ../../../../../app/lib/src/sphinxbase/util/errno.c; sourceTree = SOURCE_ROOT; };
+		6A11F88B0AC6F4E284DC11EA /* ms_senone.c */ /* ms_senone.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = ms_senone.c; path = ../../../../../app/lib/src/pocketsphinx/ms_senone.c; sourceTree = SOURCE_ROOT; };
+		6D0AB3940FC9DDBF56C85024 /* agc.h */ /* agc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = agc.h; path = ../../../../../app/lib/include/sphinxbase/agc.h; sourceTree = SOURCE_ROOT; };
+		6F220FD6842BE3A081DB2990 /* ngrams_raw.h */ /* ngrams_raw.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ngrams_raw.h; path = ../../../../../app/lib/src/sphinxbase/lm/ngrams_raw.h; sourceTree = SOURCE_ROOT; };
+		6F3BDAD1C030A519D0455811 /* fsg_model.c */ /* fsg_model.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = fsg_model.c; path = ../../../../../app/lib/src/sphinxbase/lm/fsg_model.c; sourceTree = SOURCE_ROOT; };
+		6F606FC0FA42093B1658A106 /* jsgf_parser.c */ /* jsgf_parser.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = jsgf_parser.c; path = ../../../../../app/lib/src/sphinxbase/lm/jsgf_parser.c; sourceTree = SOURCE_ROOT; };
+		748000D1B4D31F1D014DB4D9 /* jsgf_scanner.h */ /* jsgf_scanner.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = jsgf_scanner.h; path = ../../../../../app/lib/src/sphinxbase/lm/jsgf_scanner.h; sourceTree = SOURCE_ROOT; };
+		7732763DB4C204600EE05B63 /* ad.h */ /* ad.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ad.h; path = ../../../../../app/lib/include/sphinxbase/ad.h; sourceTree = SOURCE_ROOT; };
+		78F5FD5D35E7D3C6B0CD5FB6 /* fe_interface.c */ /* fe_interface.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = fe_interface.c; path = ../../../../../app/lib/src/sphinxbase/fe/fe_interface.c; sourceTree = SOURCE_ROOT; };
+		7A39F682ABF10F89D8FAF75D /* allphone_search.c */ /* allphone_search.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = allphone_search.c; path = ../../../../../app/lib/src/pocketsphinx/allphone_search.c; sourceTree = SOURCE_ROOT; };
+		7A4251E18912FA71AA7A2D79 /* hash_table.h */ /* hash_table.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = hash_table.h; path = ../../../../../app/lib/include/sphinxbase/hash_table.h; sourceTree = SOURCE_ROOT; };
+		7AC81D9BC5AAD83F576F35BC /* jsgf_internal.h */ /* jsgf_internal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = jsgf_internal.h; path = ../../../../../app/lib/src/sphinxbase/lm/jsgf_internal.h; sourceTree = SOURCE_ROOT; };
+		7CA15D0E208C26FA3C97FFFF /* ptm_mgau.c */ /* ptm_mgau.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = ptm_mgau.c; path = ../../../../../app/lib/src/pocketsphinx/ptm_mgau.c; sourceTree = SOURCE_ROOT; };
+		7D79F2FD94970271B4921CCA /* QuartzCore.framework */ /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		7E9790D1E73E2756885D7293 /* cmd_ln.c */ /* cmd_ln.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = cmd_ln.c; path = ../../../../../app/lib/src/sphinxbase/util/cmd_ln.c; sourceTree = SOURCE_ROOT; };
+		7F0EB408DAA2DA91B90B224A /* ckd_alloc.c */ /* ckd_alloc.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = ckd_alloc.c; path = ../../../../../app/lib/src/sphinxbase/util/ckd_alloc.c; sourceTree = SOURCE_ROOT; };
+		80944D693E80822B9F30B001 /* ad_alsa.c */ /* ad_alsa.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = ad_alsa.c; path = ../../../../../app/lib/src/sphinxad/ad_alsa.c; sourceTree = SOURCE_ROOT; };
+		8099D5886B79C0B8BCC662FF /* vector.h */ /* vector.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = vector.h; path = ../../../../../app/lib/src/pocketsphinx/vector.h; sourceTree = SOURCE_ROOT; };
+		80B941596AD44BCE5EDAA387 /* fe_prespch_buf.c */ /* fe_prespch_buf.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = fe_prespch_buf.c; path = ../../../../../app/lib/src/sphinxbase/fe/fe_prespch_buf.c; sourceTree = SOURCE_ROOT; };
+		81A6FB9757421FEB8D762FEE /* fe_internal.h */ /* fe_internal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = fe_internal.h; path = ../../../../../app/lib/src/sphinxbase/fe/fe_internal.h; sourceTree = SOURCE_ROOT; };
+		86054DF9C7ED5261EE0CDEED /* strfuncs.h */ /* strfuncs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = strfuncs.h; path = ../../../../../app/lib/include/sphinxbase/strfuncs.h; sourceTree = SOURCE_ROOT; };
+		8899482CAC0FDA3F3990A40C /* juce_core */ /* juce_core */ = {isa = PBXFileReference; lastKnownFileType = folder; name = juce_core; path = "~/JUCE/modules/juce_core"; sourceTree = "<absolute>"; };
+		893BA1AD6B4FC8F2568FE22B /* acmod.h */ /* acmod.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = acmod.h; path = ../../../../../app/lib/src/pocketsphinx/acmod.h; sourceTree = SOURCE_ROOT; };
+		89E498F95F17413640A0AE1F /* ad_oss.c */ /* ad_oss.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = ad_oss.c; path = ../../../../../app/lib/src/sphinxad/ad_oss.c; sourceTree = SOURCE_ROOT; };
+		8B8C2960076B0F51E3263550 /* priority_queue.h */ /* priority_queue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = priority_queue.h; path = ../../../../../app/lib/include/sphinxbase/priority_queue.h; sourceTree = SOURCE_ROOT; };
+		8C7FE8E179F6CFEDFF423869 /* Foundation.framework */ /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8DD6F78D6436E0A9ED2C0BF7 /* bitvec.c */ /* bitvec.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = bitvec.c; path = ../../../../../app/lib/src/sphinxbase/util/bitvec.c; sourceTree = SOURCE_ROOT; };
+		8EB5B545221FBD8299C4F033 /* genrand.h */ /* genrand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = genrand.h; path = ../../../../../app/lib/include/sphinxbase/genrand.h; sourceTree = SOURCE_ROOT; };
+		911909E999DAAC9C3C372702 /* sbthread.c */ /* sbthread.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = sbthread.c; path = ../../../../../app/lib/src/sphinxbase/util/sbthread.c; sourceTree = SOURCE_ROOT; };
+		92374759F6643E8157887EAA /* bio.c */ /* bio.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = bio.c; path = ../../../../../app/lib/src/sphinxbase/util/bio.c; sourceTree = SOURCE_ROOT; };
+		9EA6A8CFDD6406517AFE251B /* ngram_search_fwdflat.c */ /* ngram_search_fwdflat.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = ngram_search_fwdflat.c; path = ../../../../../app/lib/src/pocketsphinx/ngram_search_fwdflat.c; sourceTree = SOURCE_ROOT; };
+		9F5EB6E5749A8D22DBCB6FDF /* fsg_history.c */ /* fsg_history.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = fsg_history.c; path = ../../../../../app/lib/src/pocketsphinx/fsg_history.c; sourceTree = SOURCE_ROOT; };
+		A0294C262B1287ECE2AF7343 /* kws_search.c */ /* kws_search.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = kws_search.c; path = ../../../../../app/lib/src/pocketsphinx/kws_search.c; sourceTree = SOURCE_ROOT; };
+		A0B50C453C13643395BEBB40 /* f2c.h */ /* f2c.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = f2c.h; path = ../../../../../app/lib/include/sphinxbase/f2c.h; sourceTree = SOURCE_ROOT; };
+		A0E143B0571C74404DE4DAB6 /* ngram_model.c */ /* ngram_model.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = ngram_model.c; path = ../../../../../app/lib/src/sphinxbase/lm/ngram_model.c; sourceTree = SOURCE_ROOT; };
+		A24F7B0A0AA241369902FFB6 /* ms_gauden.c */ /* ms_gauden.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = ms_gauden.c; path = ../../../../../app/lib/src/pocketsphinx/ms_gauden.c; sourceTree = SOURCE_ROOT; };
+		A340592D7A24549B055E6622 /* fast_ptm.txt */ /* fast_ptm.txt */ = {isa = PBXFileReference; lastKnownFileType = text.txt; name = fast_ptm.txt; path = ../../../../../app/lib/src/pocketsphinx/fast_ptm.txt; sourceTree = SOURCE_ROOT; };
+		A430D85D8CE03A897380B060 /* lda.c */ /* lda.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = lda.c; path = ../../../../../app/lib/src/sphinxbase/feat/lda.c; sourceTree = SOURCE_ROOT; };
+		A4A3EABCF3E5650721311005 /* genrand.c */ /* genrand.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = genrand.c; path = ../../../../../app/lib/src/sphinxbase/util/genrand.c; sourceTree = SOURCE_ROOT; };
+		A50D19B287D68B10F09AB47E /* filename.h */ /* filename.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = filename.h; path = ../../../../../app/lib/include/sphinxbase/filename.h; sourceTree = SOURCE_ROOT; };
+		A9FC0F63975BFD3BC75A3B8D /* ngram_model.h */ /* ngram_model.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ngram_model.h; path = ../../../../../app/lib/include/sphinxbase/ngram_model.h; sourceTree = SOURCE_ROOT; };
+		AAA2F734A691A98ACADDF671 /* fe_warp_affine.h */ /* fe_warp_affine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = fe_warp_affine.h; path = ../../../../../app/lib/src/sphinxbase/fe/fe_warp_affine.h; sourceTree = SOURCE_ROOT; };
+		AB991635D848FF0404A00C20 /* hash_table.c */ /* hash_table.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = hash_table.c; path = ../../../../../app/lib/src/sphinxbase/util/hash_table.c; sourceTree = SOURCE_ROOT; };
+		ABDC4ACBA4C5899D7D7580A5 /* fsg_history.h */ /* fsg_history.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = fsg_history.h; path = ../../../../../app/lib/src/pocketsphinx/fsg_history.h; sourceTree = SOURCE_ROOT; };
+		AC98D822DEC9B0E7D829CA2C /* bin_mdef.c */ /* bin_mdef.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = bin_mdef.c; path = ../../../../../app/lib/src/pocketsphinx/bin_mdef.c; sourceTree = SOURCE_ROOT; };
+		B0E5F9D7D79256417AA13271 /* ngram_search_fwdflat.h */ /* ngram_search_fwdflat.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ngram_search_fwdflat.h; path = ../../../../../app/lib/src/pocketsphinx/ngram_search_fwdflat.h; sourceTree = SOURCE_ROOT; };
+		B1728740ADE897042BAC630D /* bio.h */ /* bio.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = bio.h; path = ../../../../../app/lib/include/sphinxbase/bio.h; sourceTree = SOURCE_ROOT; };
+		B184FAA8001E2A7279E57ED8 /* include_juce_events.mm */ /* include_juce_events.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = include_juce_events.mm; path = ../../JuceLibraryCode/include_juce_events.mm; sourceTree = SOURCE_ROOT; };
+		B194385541C9A6EFFD02CF53 /* cmn.c */ /* cmn.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = cmn.c; path = ../../../../../app/lib/src/sphinxbase/feat/cmn.c; sourceTree = SOURCE_ROOT; };
+		B2BF6CA9C6644A41F3CAA4C7 /* mdef.c */ /* mdef.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = mdef.c; path = ../../../../../app/lib/src/pocketsphinx/mdef.c; sourceTree = SOURCE_ROOT; };
+		B2DB5A60EF0025CEC3A5D175 /* pocketsphinx.c */ /* pocketsphinx.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = pocketsphinx.c; path = ../../../../../app/lib/src/pocketsphinx/pocketsphinx.c; sourceTree = SOURCE_ROOT; };
+		B60A109DAE99C797155AD3A3 /* ps_lattice.h */ /* ps_lattice.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ps_lattice.h; path = ../../../../../app/lib/include/pocketsphinx/ps_lattice.h; sourceTree = SOURCE_ROOT; };
+		B72E02B4BBC1597E65BF3049 /* byteorder.h */ /* byteorder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = byteorder.h; path = ../../../../../app/lib/include/sphinxbase/byteorder.h; sourceTree = SOURCE_ROOT; };
+		B77829502D1235E609C3CD3E /* dtoa.c */ /* dtoa.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = dtoa.c; path = ../../../../../app/lib/src/sphinxbase/util/dtoa.c; sourceTree = SOURCE_ROOT; };
+		B8375C287211B2362248569D /* fe.h */ /* fe.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = fe.h; path = ../../../../../app/lib/include/sphinxbase/fe.h; sourceTree = SOURCE_ROOT; };
+		B947ACAF3E21F43C709AA18A /* ps_alignment.h */ /* ps_alignment.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ps_alignment.h; path = ../../../../../app/lib/src/pocketsphinx/ps_alignment.h; sourceTree = SOURCE_ROOT; };
+		BAE3364CBD98BE25130F4BAB /* App */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB90B7F6A0ED5B3241E469FE /* bitvec.h */ /* bitvec.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = bitvec.h; path = ../../../../../app/lib/include/sphinxbase/bitvec.h; sourceTree = SOURCE_ROOT; };
+		BF6D6C628EB3119619447F47 /* s3types.h */ /* s3types.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = s3types.h; path = ../../../../../app/lib/src/pocketsphinx/s3types.h; sourceTree = SOURCE_ROOT; };
+		C0621CDBCC99EC4E86B7A099 /* ngram_search.c */ /* ngram_search.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = ngram_search.c; path = ../../../../../app/lib/src/pocketsphinx/ngram_search.c; sourceTree = SOURCE_ROOT; };
+		C19DD0DD609D7BDB43C169A4 /* pio.c */ /* pio.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = pio.c; path = ../../../../../app/lib/src/sphinxbase/util/pio.c; sourceTree = SOURCE_ROOT; };
+		C1A9E76928CCCC8246C47035 /* fe_type.h */ /* fe_type.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = fe_type.h; path = ../../../../../app/lib/src/sphinxbase/fe/fe_type.h; sourceTree = SOURCE_ROOT; };
+		C1B092304205D7AB5904F70E /* fe_warp_piecewise_linear.c */ /* fe_warp_piecewise_linear.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = fe_warp_piecewise_linear.c; path = ../../../../../app/lib/src/sphinxbase/fe/fe_warp_piecewise_linear.c; sourceTree = SOURCE_ROOT; };
+		C1FA9E87208B9BE982726F62 /* cmd_ln.h */ /* cmd_ln.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = cmd_ln.h; path = ../../../../../app/lib/include/sphinxbase/cmd_ln.h; sourceTree = SOURCE_ROOT; };
+		C70B22ABB3B8B8A4BC029989 /* fe_warp_affine.c */ /* fe_warp_affine.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = fe_warp_affine.c; path = ../../../../../app/lib/src/sphinxbase/fe/fe_warp_affine.c; sourceTree = SOURCE_ROOT; };
+		C7A5AC0B4C65ED8A0536B93D /* blkarray_list.h */ /* blkarray_list.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = blkarray_list.h; path = ../../../../../app/lib/src/pocketsphinx/blkarray_list.h; sourceTree = SOURCE_ROOT; };
+		CB19A4636B60EA913071AFB2 /* dict.h */ /* dict.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = dict.h; path = ../../../../../app/lib/src/pocketsphinx/dict.h; sourceTree = SOURCE_ROOT; };
+		CC84E097D0172E045FC5CD16 /* sphinx_config.h */ /* sphinx_config.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = sphinx_config.h; path = ../../../../../app/lib/include/sphinx_config.h; sourceTree = SOURCE_ROOT; };
+		CDCA2DE090D4F8773CD9BC9A /* feat.c */ /* feat.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = feat.c; path = ../../../../../app/lib/src/sphinxbase/feat/feat.c; sourceTree = SOURCE_ROOT; };
+		CE6A5F8BCBDA20D70B935172 /* juce_events */ /* juce_events */ = {isa = PBXFileReference; lastKnownFileType = folder; name = juce_events; path = "~/JUCE/modules/juce_events"; sourceTree = "<absolute>"; };
+		CF2C32DBD2E1AB9749DC7785 /* bitarr.h */ /* bitarr.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = bitarr.h; path = ../../../../../app/lib/include/sphinxbase/bitarr.h; sourceTree = SOURCE_ROOT; };
+		D2E950D52ACC4AE44E5F378B /* BinaryData.cpp */ /* BinaryData.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = BinaryData.cpp; path = ../../JuceLibraryCode/BinaryData.cpp; sourceTree = SOURCE_ROOT; };
+		D34A832713F77D56F50944D0 /* fe_warp_inverse_linear.h */ /* fe_warp_inverse_linear.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = fe_warp_inverse_linear.h; path = ../../../../../app/lib/src/sphinxbase/fe/fe_warp_inverse_linear.h; sourceTree = SOURCE_ROOT; };
+		D47CE6A90E7127B5A8648FF7 /* ms_senone.h */ /* ms_senone.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ms_senone.h; path = ../../../../../app/lib/src/pocketsphinx/ms_senone.h; sourceTree = SOURCE_ROOT; };
+		D493355E915DBEBF856E88AE /* logmath.c */ /* logmath.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = logmath.c; path = ../../../../../app/lib/src/sphinxbase/util/logmath.c; sourceTree = SOURCE_ROOT; };
+		DB05391470EDFDE9E8624FEB /* ngram_model_trie.c */ /* ngram_model_trie.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = ngram_model_trie.c; path = ../../../../../app/lib/src/sphinxbase/lm/ngram_model_trie.c; sourceTree = SOURCE_ROOT; };
+		DCF714B79C6CCE4A9D3C2539 /* fe_warp_inverse_linear.c */ /* fe_warp_inverse_linear.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = fe_warp_inverse_linear.c; path = ../../../../../app/lib/src/sphinxbase/fe/fe_warp_inverse_linear.c; sourceTree = SOURCE_ROOT; };
+		DDADCBA39461EB96164A2CEC /* fe_noise.h */ /* fe_noise.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = fe_noise.h; path = ../../../../../app/lib/src/sphinxbase/fe/fe_noise.h; sourceTree = SOURCE_ROOT; };
+		DEA2C1E7E848065176DF637E /* dict2pid.c */ /* dict2pid.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = dict2pid.c; path = ../../../../../app/lib/src/pocketsphinx/dict2pid.c; sourceTree = SOURCE_ROOT; };
+		DF97937545DEE80464BE76AB /* JuceHeader.h */ /* JuceHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = JuceHeader.h; path = ../../JuceLibraryCode/JuceHeader.h; sourceTree = SOURCE_ROOT; };
+		DFC35E0FB345F1E3196D5520 /* config.h */ /* config.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = config.h; path = ../../../../../app/lib/include/config.h; sourceTree = SOURCE_ROOT; };
+		E140661EBD0D711715458596 /* fe_warp_piecewise_linear.h */ /* fe_warp_piecewise_linear.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = fe_warp_piecewise_linear.h; path = ../../../../../app/lib/src/sphinxbase/fe/fe_warp_piecewise_linear.h; sourceTree = SOURCE_ROOT; };
+		E23ACBFB4722C3F1E4EC96A0 /* matrix.h */ /* matrix.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = matrix.h; path = ../../../../../app/lib/include/sphinxbase/matrix.h; sourceTree = SOURCE_ROOT; };
+		E486648DCAB35033794E6079 /* slamch.c */ /* slamch.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = slamch.c; path = ../../../../../app/lib/src/sphinxbase/util/slamch.c; sourceTree = SOURCE_ROOT; };
+		E48FED65A4B5D22F9BA416CD /* fixpoint.h */ /* fixpoint.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = fixpoint.h; path = ../../../../../app/lib/include/sphinxbase/fixpoint.h; sourceTree = SOURCE_ROOT; };
+		E64A2876BDCA79DA48AFF21E /* bitarr.c */ /* bitarr.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = bitarr.c; path = ../../../../../app/lib/src/sphinxbase/util/bitarr.c; sourceTree = SOURCE_ROOT; };
+		E75F256C34DE959BBC584FD3 /* ngram_model_set.c */ /* ngram_model_set.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = ngram_model_set.c; path = ../../../../../app/lib/src/sphinxbase/lm/ngram_model_set.c; sourceTree = SOURCE_ROOT; };
+		E767C31D39D08D71FB6F5C68 /* ps_alignment.c */ /* ps_alignment.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = ps_alignment.c; path = ../../../../../app/lib/src/pocketsphinx/ps_alignment.c; sourceTree = SOURCE_ROOT; };
+		E8EE89116876D36A1F25AAEF /* MainComponent.h */ /* MainComponent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MainComponent.h; path = ../../Source/MainComponent.h; sourceTree = SOURCE_ROOT; };
+		EB6DA66E3A8C3341F2EFD67F /* listelem_alloc.c */ /* listelem_alloc.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = listelem_alloc.c; path = ../../../../../app/lib/src/sphinxbase/util/listelem_alloc.c; sourceTree = SOURCE_ROOT; };
+		ECBAD42BB49F7DF788EE8112 /* filename.c */ /* filename.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = filename.c; path = ../../../../../app/lib/src/sphinxbase/util/filename.c; sourceTree = SOURCE_ROOT; };
+		EDB42E82D53E0E6DC9460B6D /* state_align_search.c */ /* state_align_search.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = state_align_search.c; path = ../../../../../app/lib/src/pocketsphinx/state_align_search.c; sourceTree = SOURCE_ROOT; };
+		EE31A9C1CF21A8D7D50B2DF0 /* cmn_live.c */ /* cmn_live.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = cmn_live.c; path = ../../../../../app/lib/src/sphinxbase/feat/cmn_live.c; sourceTree = SOURCE_ROOT; };
+		EFB206A39DA251C23685C56C /* jsgf_scanner.c */ /* jsgf_scanner.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = jsgf_scanner.c; path = ../../../../../app/lib/src/sphinxbase/lm/jsgf_scanner.c; sourceTree = SOURCE_ROOT; };
+		EFFE14F1E5D59258FEE1FC39 /* mmio.h */ /* mmio.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = mmio.h; path = ../../../../../app/lib/include/sphinxbase/mmio.h; sourceTree = SOURCE_ROOT; };
+		F024C6C69E734DAAF9B8A705 /* fe_sigproc.c */ /* fe_sigproc.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = fe_sigproc.c; path = ../../../../../app/lib/src/sphinxbase/fe/fe_sigproc.c; sourceTree = SOURCE_ROOT; };
+		F055E6055BD9138E91212233 /* kws_detections.c */ /* kws_detections.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = kws_detections.c; path = ../../../../../app/lib/src/pocketsphinx/kws_detections.c; sourceTree = SOURCE_ROOT; };
+		F074F56408F973B041B4614C /* hmm.c */ /* hmm.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = hmm.c; path = ../../../../../app/lib/src/pocketsphinx/hmm.c; sourceTree = SOURCE_ROOT; };
+		F18AA90A61B8B40DA3F88BC7 /* profile.c */ /* profile.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = profile.c; path = ../../../../../app/lib/src/sphinxbase/util/profile.c; sourceTree = SOURCE_ROOT; };
+		F525E8BA841C18BA803B9436 /* glist.c */ /* glist.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = glist.c; path = ../../../../../app/lib/src/sphinxbase/util/glist.c; sourceTree = SOURCE_ROOT; };
+		F535BA87BF193D6C5C0CA958 /* yin.h */ /* yin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = yin.h; path = ../../../../../app/lib/include/sphinxbase/yin.h; sourceTree = SOURCE_ROOT; };
+		F9C4B5974AA0BC30D32E1905 /* s2_semi_mgau.c */ /* s2_semi_mgau.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = s2_semi_mgau.c; path = ../../../../../app/lib/src/pocketsphinx/s2_semi_mgau.c; sourceTree = SOURCE_ROOT; };
+		FB91769BF097BDED31314908 /* fe_noise.c */ /* fe_noise.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = fe_noise.c; path = ../../../../../app/lib/src/sphinxbase/fe/fe_noise.c; sourceTree = SOURCE_ROOT; };
+		FBD1AFE1EBE4F5D345487C95 /* BinaryData.h */ /* BinaryData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BinaryData.h; path = ../../JuceLibraryCode/BinaryData.h; sourceTree = SOURCE_ROOT; };
+		FC268543463162E50D7645AA /* ngram_search_fwdtree.c */ /* ngram_search_fwdtree.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = ngram_search_fwdtree.c; path = ../../../../../app/lib/src/pocketsphinx/ngram_search_fwdtree.c; sourceTree = SOURCE_ROOT; };
+		FC6E330DBA742819D85AED4D /* ps_lattice.c */ /* ps_lattice.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = ps_lattice.c; path = ../../../../../app/lib/src/pocketsphinx/ps_lattice.c; sourceTree = SOURCE_ROOT; };
+		FD00243ED2C06C94C9CD8772 /* logmath.h */ /* logmath.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = logmath.h; path = ../../../../../app/lib/include/sphinxbase/logmath.h; sourceTree = SOURCE_ROOT; };
+		FD55F4B4C7FE6846DBC27C44 /* feat.h */ /* feat.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = feat.h; path = ../../../../../app/lib/include/sphinxbase/feat.h; sourceTree = SOURCE_ROOT; };
+		FEB5A16562A0876FB1A4CF40 /* fsg_lextree.c */ /* fsg_lextree.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = fsg_lextree.c; path = ../../../../../app/lib/src/pocketsphinx/fsg_lextree.c; sourceTree = SOURCE_ROOT; };
+		FED9DC46068C08B1FF41B026 /* pocketsphinx_export.h */ /* pocketsphinx_export.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = pocketsphinx_export.h; path = ../../../../../app/lib/include/pocketsphinx/pocketsphinx_export.h; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B13210436B0912808C4A69CF = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA3F55148E1976147A6D781C,
+				48F25FE5EED77975FC8EB7A5,
+				398EE8E67DD5A9AEC3E2B0C0,
+				7511F711A2F94022C8D2C871,
+				CE5A4175789DAC738D32BCF3,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02AF5F685765CC4FE9C9E175 /* JUCE Library Code */ = {
+			isa = PBXGroup;
+			children = (
+				D2E950D52ACC4AE44E5F378B,
+				FBD1AFE1EBE4F5D345487C95,
+				03EE6F3B0B7556C096207FEF,
+				09CF6110E6F7FB29B152802D,
+				B184FAA8001E2A7279E57ED8,
+				0403E0E49D91E350D5C18C1D,
+				5AA480B873A3B11AD31AFB0F,
+				DF97937545DEE80464BE76AB,
+			);
+			name = "JUCE Library Code";
+			sourceTree = "<group>";
+		};
+		230B2C7F2C797C0718A3AC3F /* pocketsphinx */ = {
+			isa = PBXGroup;
+			children = (
+				1ED4ECA1AF92AA5903E3DDE5,
+				610F84BC646AF5F070728CF7,
+				FED9DC46068C08B1FF41B026,
+				B60A109DAE99C797155AD3A3,
+				220B908961C20FD9884AE228,
+				593E2977619B8AB52938E2DB,
+			);
+			name = pocketsphinx;
+			sourceTree = "<group>";
+		};
+		36BCF97A0D15E1B4901D6129 /* sphinxbase */ = {
+			isa = PBXGroup;
+			children = (
+				7732763DB4C204600EE05B63,
+				6D0AB3940FC9DDBF56C85024,
+				B1728740ADE897042BAC630D,
+				CF2C32DBD2E1AB9749DC7785,
+				BB90B7F6A0ED5B3241E469FE,
+				B72E02B4BBC1597E65BF3049,
+				4DED876ADB1DF14D5B8794C0,
+				14DC6A91C92ABBBCDBAD10A2,
+				2C683D25B7C1CA5DB251A4FB,
+				C1FA9E87208B9BE982726F62,
+				3887F7FB33D5DA1615AD38A6,
+				52E6B4DF4F32BA7590DB09CC,
+				A0B50C453C13643395BEBB40,
+				B8375C287211B2362248569D,
+				FD55F4B4C7FE6846DBC27C44,
+				A50D19B287D68B10F09AB47E,
+				E48FED65A4B5D22F9BA416CD,
+				62CEC1D20AD676113F1698BF,
+				8EB5B545221FBD8299C4F033,
+				5DD44292D0BE452E278F6EB7,
+				7A4251E18912FA71AA7A2D79,
+				6500D3FCED3D1E86A73E4617,
+				130E3B7E0DAE6E40712F1776,
+				5D8EEB598868B6145882AEA7,
+				FD00243ED2C06C94C9CD8772,
+				E23ACBFB4722C3F1E4EC96A0,
+				EFFE14F1E5D59258FEE1FC39,
+				A9FC0F63975BFD3BC75A3B8D,
+				14BE0D7C8D7B9E5D0325CC26,
+				03EEE57E98E7BE462C430892,
+				8B8C2960076B0F51E3263550,
+				2C3491060109FDC3D86C9D7E,
+				45F1513267E64007F56B22C4,
+				104D02208891E28D5BFFE28B,
+				86054DF9C7ED5261EE0CDEED,
+				F535BA87BF193D6C5C0CA958,
+			);
+			name = sphinxbase;
+			sourceTree = "<group>";
+		};
+		371A04431DE68F9F4DF97B7D /* src */ = {
+			isa = PBXGroup;
+			children = (
+				5B0CF7721195883BB0F932EE,
+				A8BB48ED7C3A86A3A98C33B7,
+				6DC19739A32191DE97A175D2,
+			);
+			name = src;
+			sourceTree = "<group>";
+		};
+		37D88E05593A7BC3FBCE1DA9 /* util */ = {
+			isa = PBXGroup;
+			children = (
+				92374759F6643E8157887EAA,
+				E64A2876BDCA79DA48AFF21E,
+				8DD6F78D6436E0A9ED2C0BF7,
+				474A31FA40C6D8ACA8B47775,
+				0FC2C21090EF4EE348DF38A8,
+				7F0EB408DAA2DA91B90B224A,
+				7E9790D1E73E2756885D7293,
+				B77829502D1235E609C3CD3E,
+				5B993238C1103834AA818ABE,
+				6A0234C03B231AB4965C1C88,
+				64D970016DA6649BF03D1D4E,
+				ECBAD42BB49F7DF788EE8112,
+				A4A3EABCF3E5650721311005,
+				F525E8BA841C18BA803B9436,
+				AB991635D848FF0404A00C20,
+				68CAAC3AE0740D3E7E8BF6F5,
+				EB6DA66E3A8C3341F2EFD67F,
+				D493355E915DBEBF856E88AE,
+				6652EECA35C74D9AB32FD4DB,
+				009F80B1E23A3C024148714E,
+				C19DD0DD609D7BDB43C169A4,
+				08D8A7F42415B6E71ADA86A4,
+				F18AA90A61B8B40DA3F88BC7,
+				911909E999DAAC9C3C372702,
+				E486648DCAB35033794E6079,
+				2C03D488E3DFF631B6817BC2,
+				63340CA56D5102BA5086EB5C,
+			);
+			name = util;
+			sourceTree = "<group>";
+		};
+		3ED58B05EACFEE736D1F3988 /* lm */ = {
+			isa = PBXGroup;
+			children = (
+				6F3BDAD1C030A519D0455811,
+				636A2A01A85697E293C57A46,
+				7AC81D9BC5AAD83F576F35BC,
+				6F606FC0FA42093B1658A106,
+				645705C554787730674E2A9D,
+				EFB206A39DA251C23685C56C,
+				748000D1B4D31F1D014DB4D9,
+				59EF98326542EA99BBDA8593,
+				3D9DD4EBEE6375AD3B348CEE,
+				55AE8967D3295D9927FB9DCC,
+				1EB573E9F61453C2FD88D658,
+				A0E143B0571C74404DE4DAB6,
+				5C296FBD4F532525DF4EFB75,
+				E75F256C34DE959BBC584FD3,
+				458454E74BD9B291EE4F597F,
+				DB05391470EDFDE9E8624FEB,
+				24865C214421047A27E6E1EB,
+				06C733BE75C0ECED219A9FE2,
+				6F220FD6842BE3A081DB2990,
+			);
+			name = lm;
+			sourceTree = "<group>";
+		};
+		51F26103AAA414E514113836 /* fe */ = {
+			isa = PBXGroup;
+			children = (
+				78F5FD5D35E7D3C6B0CD5FB6,
+				81A6FB9757421FEB8D762FEE,
+				FB91769BF097BDED31314908,
+				DDADCBA39461EB96164A2CEC,
+				80B941596AD44BCE5EDAA387,
+				5EF312E1887482BAC03C1D62,
+				F024C6C69E734DAAF9B8A705,
+				C1A9E76928CCCC8246C47035,
+				243B26E2783956E1EA4D9C8F,
+				22F48CD6FD545E0C07D84BEE,
+				C70B22ABB3B8B8A4BC029989,
+				AAA2F734A691A98ACADDF671,
+				DCF714B79C6CCE4A9D3C2539,
+				D34A832713F77D56F50944D0,
+				C1B092304205D7AB5904F70E,
+				E140661EBD0D711715458596,
+				5FF5E00CE790A883F4046B25,
+				2311A596E33B986F8EF3E790,
+			);
+			name = fe;
+			sourceTree = "<group>";
+		};
+		5B0CF7721195883BB0F932EE /* pocketsphinx */ = {
+			isa = PBXGroup;
+			children = (
+				662A9BB779B569439C5F39AB,
+				893BA1AD6B4FC8F2568FE22B,
+				7A39F682ABF10F89D8FAF75D,
+				006D9F2CC81A4FA5D469F55C,
+				AC98D822DEC9B0E7D829CA2C,
+				105308B73A610BFAAB167D9A,
+				11AED5FA80B07D7B533088CC,
+				C7A5AC0B4C65ED8A0536B93D,
+				1610A15E2179CE016BB7665D,
+				CB19A4636B60EA913071AFB2,
+				DEA2C1E7E848065176DF637E,
+				4A22D56CBC500E66941F152E,
+				A340592D7A24549B055E6622,
+				9F5EB6E5749A8D22DBCB6FDF,
+				ABDC4ACBA4C5899D7D7580A5,
+				FEB5A16562A0876FB1A4CF40,
+				1E1B7498493F24C39564EAFF,
+				0488B2A5C65351314A274183,
+				4401A36BF2EF604EC454650D,
+				F074F56408F973B041B4614C,
+				43FDD1FEC460C32D822BE3E7,
+				F055E6055BD9138E91212233,
+				3A29E90290301800381A7B71,
+				A0294C262B1287ECE2AF7343,
+				325DC3193395B8F1A0147846,
+				B2BF6CA9C6644A41F3CAA4C7,
+				242C597A0127A1ACE603D53D,
+				A24F7B0A0AA241369902FFB6,
+				3CA6854EB1BB6205CA72FCC9,
+				095159004C45DB83F8F47BA8,
+				5C8CB063ADD2200988489247,
+				6A11F88B0AC6F4E284DC11EA,
+				D47CE6A90E7127B5A8648FF7,
+				C0621CDBCC99EC4E86B7A099,
+				3574C84D851A1F22A54D862A,
+				9EA6A8CFDD6406517AFE251B,
+				B0E5F9D7D79256417AA13271,
+				FC268543463162E50D7645AA,
+				6313464F593F643260E2C8AB,
+				588C0CBC44E83D071B942CBC,
+				00AF9589C0EDF47F1CB41249,
+				B2DB5A60EF0025CEC3A5D175,
+				1FE3B64CFE5C109E63D802F1,
+				E767C31D39D08D71FB6F5C68,
+				B947ACAF3E21F43C709AA18A,
+				FC6E330DBA742819D85AED4D,
+				20257E84259384B998433001,
+				3C5757CEC7C5D8095C740D7B,
+				7CA15D0E208C26FA3C97FFFF,
+				608A4D2EFF55F084634BA0DB,
+				F9C4B5974AA0BC30D32E1905,
+				41C98FC41BCD2AC83E1980FD,
+				BF6D6C628EB3119619447F47,
+				EDB42E82D53E0E6DC9460B6D,
+				5A60EEB503296673EA0FA16B,
+				4C8AFDA6E86D5F177BEBEFC2,
+				0A01DF2E38999B83F0AD97BC,
+				26B9E4A4976E7F8E95EDDEEB,
+				60AC5A149600D0677F51131C,
+				8099D5886B79C0B8BCC662FF,
+			);
+			name = pocketsphinx;
+			sourceTree = "<group>";
+		};
+		5C894F94A7DB097A574008D8 /* feat */ = {
+			isa = PBXGroup;
+			children = (
+				542E383BC36C2C9EBB49F63F,
+				B194385541C9A6EFFD02CF53,
+				EE31A9C1CF21A8D7D50B2DF0,
+				CDCA2DE090D4F8773CD9BC9A,
+				A430D85D8CE03A897380B060,
+			);
+			name = feat;
+			sourceTree = "<group>";
+		};
+		6641A28C5883248DA492C278 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				230B2C7F2C797C0718A3AC3F,
+				36BCF97A0D15E1B4901D6129,
+				DFC35E0FB345F1E3196D5520,
+				CC84E097D0172E045FC5CD16,
+			);
+			name = include;
+			sourceTree = "<group>";
+		};
+		6DC19739A32191DE97A175D2 /* sphinxbase */ = {
+			isa = PBXGroup;
+			children = (
+				51F26103AAA414E514113836,
+				5C894F94A7DB097A574008D8,
+				3ED58B05EACFEE736D1F3988,
+				37D88E05593A7BC3FBCE1DA9,
+			);
+			name = sphinxbase;
+			sourceTree = "<group>";
+		};
+		7ABDF57469278EFAA455F068 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				A1B0E711B4ADDA52BDAA43FE,
+				E1FAEE8E8D09D3B713A6FC6C,
+				02AF5F685765CC4FE9C9E175,
+				8C78EF99497A2A6354E9C020,
+				FBC888197496F29A60609568,
+				C30F1AB1760D0ED855925E05,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		8C78EF99497A2A6354E9C020 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0EAD57C5C1E476FCE1C31BA6,
+				696C9E9CA63DF61CA121C3B3,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		A1B0E711B4ADDA52BDAA43FE /* test */ = {
+			isa = PBXGroup;
+			children = (
+				D18E2EC7A678DE5B1D015C25,
+				AB3AE92A453280AE07465562,
+			);
+			name = test;
+			sourceTree = "<group>";
+		};
+		A8BB48ED7C3A86A3A98C33B7 /* sphinxad */ = {
+			isa = PBXGroup;
+			children = (
+				80944D693E80822B9F30B001,
+				49F84E3756674E643C856AE0,
+				25E455116E99EB605D9026A4,
+				89E498F95F17413640A0AE1F,
+				40345441C8547A18657A4719,
+				04696F444A5E14EAFE2F241B,
+			);
+			name = sphinxad;
+			sourceTree = "<group>";
+		};
+		AB3AE92A453280AE07465562 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				246EEA8E64F9E16F53B3D427,
+				E8EE89116876D36A1F25AAEF,
+				22DDC48A4C340A06E659CA30,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		C30F1AB1760D0ED855925E05 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BAE3364CBD98BE25130F4BAB,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D18E2EC7A678DE5B1D015C25 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				6641A28C5883248DA492C278,
+				371A04431DE68F9F4DF97B7D,
+			);
+			name = lib;
+			sourceTree = "<group>";
+		};
+		E1FAEE8E8D09D3B713A6FC6C /* JUCE Modules */ = {
+			isa = PBXGroup;
+			children = (
+				8899482CAC0FDA3F3990A40C,
+				0B6D7811331310D071F04644,
+				CE6A5F8BCBDA20D70B935172,
+				2204D449202327D15E287448,
+				473AFB8BD8B5E716495F9936,
+			);
+			name = "JUCE Modules";
+			sourceTree = "<group>";
+		};
+		FBC888197496F29A60609568 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				654370901844ECE979EB0811,
+				377D4830D68A955C39BE262B,
+				8C7FE8E179F6CFEDFF423869,
+				454203726A0B397A66BE004C,
+				7D79F2FD94970271B4921CCA,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE2BA63AE5EBD590B0A1BB43 /* test - App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 193195BACDB3BCAF83C1AEE0;
+			buildPhases = (
+				B160784A056B2502D5CD75B0,
+				5B367A147D0564945F6CC187,
+				B13210436B0912808C4A69CF,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "test - App";
+			productName = test;
+			productReference = BAE3364CBD98BE25130F4BAB;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4CB44D319C50E790D9DB0A6D = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1300;
+				ORGANIZATIONNAME = "";
+				TargetAttributes = {
+					EE2BA63AE5EBD590B0A1BB43 = {
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 0;
+							};
+							com.apple.HardenedRuntime = {
+								enabled = 0;
+							};
+							com.apple.InAppPurchase = {
+								enabled = 0;
+							};
+							com.apple.InterAppAudio = {
+								enabled = 0;
+							};
+							com.apple.Push = {
+								enabled = 0;
+							};
+							com.apple.Sandbox = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 77A359A3B9B951F77E44AF4B;
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7ABDF57469278EFAA455F068;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE2BA63AE5EBD590B0A1BB43,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B160784A056B2502D5CD75B0 = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				770D532BE43A7D185E280A45,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5B367A147D0564945F6CC187 = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B394299A6BA5C06ED422A0D,
+				049DC9CF56CE8F48DED96394,
+				BAA0ADC9A56AD1C3664514E9,
+				A410DD954D4F41DBB9D6D5BC,
+				14498AC499C84D0953CD65D7,
+				11B120BA9D84831320A7986E,
+				E19DEA7FB58E13ACF71E0874,
+				D5B9001AEDCE83E2DAFD3A6A,
+				48368B0251C26C6412732DE3,
+				644D4BA9577FE5710B52F84C,
+				C15C1863805E2498E30A544C,
+				550CA3496E63ADDD5B5376B4,
+				02C1F6BD5F7E373CF722BF2A,
+				761D56796EDE6B46EE040FF5,
+				010D41851F299F252CB106E8,
+				E54012F38E09348D806BDB6F,
+				048AF42BB43F1C4BECDBBDA4,
+				D35C518584CED6353D9AF858,
+				20795942A4DF8A92B6582E31,
+				C12DD4EFC0ECE86CB625A41B,
+				496E0DD5C473C19C05898FD5,
+				890D09851C33B0002DBFAE30,
+				A97BADCE44A9FC1BAD589967,
+				9589128A6FC0022EDD03E780,
+				957676B1F4E8588C8456BF88,
+				69D53D4D8E67B3D51821AD94,
+				485FEA592F70605C24F03906,
+				EDB0B30C6CDEFA5C2EC15C87,
+				723CB89C10D8480FC5F51522,
+				491AD7145FF33F3BD6DC9B7E,
+				DAB640812F87E5B513E51575,
+				7DCA2842DE2912C1EC754DBA,
+				6096E1E1268548A6CE83F9CD,
+				17F468878EF4F8BB11E49CF2,
+				0A261E8B3C6F35062E28BA0A,
+				8152C1233E0E0E9AB5E5B1C9,
+				5A5F5711E9A9BEF4588621D7,
+				0F87F78D6B2A16D23FFCF30F,
+				F04CC283CE34A8952E3D28D5,
+				D44C2079EA44A17EBA11CD6A,
+				C3395A996CBBFF9572DB89F5,
+				962AF5DA2650A9EDDC5339C5,
+				8D9813076D7F4764717CF4D6,
+				BFF1A692F77E58DD4898EA10,
+				C4EBA7B289105DF27F988B08,
+				12B34E6D6AC2C18EBEF625B9,
+				D195BFC48960C23D5197718A,
+				39656CD993BA51F650A6F005,
+				391D2589FC40200F6BFB7594,
+				AEA57D2E09CE992A07D0754A,
+				0C9F3034FB85D1C89D485269,
+				E5C059E03F948B93A6EC2853,
+				801995DDCC704ED576553A16,
+				7F93ACCFBCE3CFEC6453E459,
+				46B9493431C8781E767487C5,
+				9A00787549577F6170E501CB,
+				9F287CC8913456EF090049A4,
+				E2BDA7DDF5544A4D115A5AFA,
+				316AA6DB1EFF467B6F9AB072,
+				EABED2EF86B63FC178BF62B7,
+				7D9C8804476157713A945039,
+				6D5D15174468251AA10AB604,
+				3BEE5D51704FA4B2A0BDC195,
+				F806A77EC4E852ACCB800CF1,
+				0DB291A8764E63C355FC56DB,
+				A74E49A1C3486E9FC8C78E8F,
+				9E3BAEC4E1B5EF6AFDD6608C,
+				00AE686657A6BAE293BEC93D,
+				4696A59D94E6BD8F78F8D6DA,
+				6F00BBC911997DEE020BF0EC,
+				963E958E4CBBF2CE21BD9793,
+				622BB581C06C1782FBF2E3B4,
+				D139306DD152920CEF5562CC,
+				A5B6BB3CCC9D43066A0EA8D0,
+				4CAB45BA421D6F5B54F38EB5,
+				2C5E24429AB8BD49194A8793,
+				D033CD97356CAE79B97FCEFD,
+				C5A4A5FCF65BFB9D04B18EFF,
+				24D24521DDC1C4D78B70D42D,
+				6E34776B14E810A098EB5232,
+				362603D0D3A9CDCCF01B5FE2,
+				8647DEA13FDCE591E9CA2257,
+				8972881F43DAD2E2041F3613,
+				A7AB3D2FE02E0085FC919238,
+				3AB3A1509498E67C094FD6F8,
+				C09A3F2806996B48A942598A,
+				A2152629748A68603502C5C5,
+				A6F16B30F429DAE46820F127,
+				084142C01F9E10687F7E3C76,
+				C72265D653CAA3EA2D55977D,
+				AE14C2F0496191DF13385E87,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		14DD411FCA0E91962E66F852 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_LINK_OBJC_RUNTIME = NO;
+				CODE_SIGN_IDENTITY = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "$(PROJECT_DIR)/build/$(CONFIGURATION)";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"_DEBUG=1",
+					"DEBUG=1",
+					"JUCE_DISPLAY_SPLASH_SCREEN=1",
+					"JUCE_USE_DARK_SPLASH_SCREEN=1",
+					"JUCE_PROJUCER_VERSION=0x60102",
+					"JUCE_MODULE_AVAILABLE_juce_core=1",
+					"JUCE_MODULE_AVAILABLE_juce_data_structures=1",
+					"JUCE_MODULE_AVAILABLE_juce_events=1",
+					"JUCE_MODULE_AVAILABLE_juce_graphics=1",
+					"JUCE_MODULE_AVAILABLE_juce_gui_basics=1",
+					"JUCE_GLOBAL_MODULE_SETTINGS_INCLUDED=1",
+					"JUCE_STRICT_REFCOUNTEDPOINTER=1",
+					"JUCE_STANDALONE_APPLICATION=1",
+					"HAVE_UNISTD_H=1",
+					"HAVE_CONFIG_H=1",
+					"JUCER_XCODE_MAC_F6D2F4CF=1",
+					"JUCE_APP_VERSION=1.0.0",
+					"JUCE_APP_VERSION_HEX=0x10000",
+					"JucePlugin_Build_VST=0",
+					"JucePlugin_Build_VST3=0",
+					"JucePlugin_Build_AU=0",
+					"JucePlugin_Build_AUv3=0",
+					"JucePlugin_Build_RTAS=0",
+					"JucePlugin_Build_AAX=0",
+					"JucePlugin_Build_Standalone=0",
+					"JucePlugin_Build_Unity=0",
+				);
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/../../JuceLibraryCode",
+					"$(HOME)/JUCE/modules",
+					"$(SRCROOT)/../../../../../app/lib/include",
+					"$(SRCROOT)/../../../../../app/lib/include/pocketsphinx",
+					"$(SRCROOT)/../../../../../app/lib/include/sphinxbase",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Info-App.plist;
+				INFOPLIST_PREPROCESS = NO;
+				INSTALL_PATH = "$(HOME)/Applications";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_HEADER_SEARCH_PATHS = "$(SRCROOT)/../../JuceLibraryCode $(HOME)/JUCE/modules $(SRCROOT)/../../../../../app/lib/include $(SRCROOT)/../../../../../app/lib/include/pocketsphinx $(SRCROOT)/../../../../../app/lib/include/sphinxbase";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.test;
+				PRODUCT_NAME = "NewProject";
+				USE_HEADERMAP = NO;
+				VALID_ARCHS = "i386 x86_64 arm64 arm64e";
+			};
+			name = Debug;
+		};
+		48D205C8DE97F585A568DF97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = NO;
+				GCC_C_LANGUAGE_STANDARD = c11;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = YES;
+				GCC_WARN_MISSING_PARENTHESES = YES;
+				GCC_WARN_NON_VIRTUAL_DESTRUCTOR = YES;
+				GCC_WARN_TYPECHECK_CALLS_TO_PRINTF = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "NewProject";
+				SDKROOT = macosx;
+				WARNING_CFLAGS = "-Wreorder";
+				ZERO_LINK = NO;
+			};
+			name = Debug;
+		};
+		6D7BB1148828990B52F87D6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = NO;
+				GCC_C_LANGUAGE_STANDARD = c11;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = YES;
+				GCC_WARN_MISSING_PARENTHESES = YES;
+				GCC_WARN_NON_VIRTUAL_DESTRUCTOR = YES;
+				GCC_WARN_TYPECHECK_CALLS_TO_PRINTF = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PRODUCT_NAME = "NewProject";
+				SDKROOT = macosx;
+				WARNING_CFLAGS = "-Wreorder";
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		C9BA86E50D57AA362EB21532 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_LINK_OBJC_RUNTIME = NO;
+				CODE_SIGN_IDENTITY = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "$(PROJECT_DIR)/build/$(CONFIGURATION)";
+				DEAD_CODE_STRIPPING = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"_NDEBUG=1",
+					"NDEBUG=1",
+					"JUCE_DISPLAY_SPLASH_SCREEN=1",
+					"JUCE_USE_DARK_SPLASH_SCREEN=1",
+					"JUCE_PROJUCER_VERSION=0x60102",
+					"JUCE_MODULE_AVAILABLE_juce_core=1",
+					"JUCE_MODULE_AVAILABLE_juce_data_structures=1",
+					"JUCE_MODULE_AVAILABLE_juce_events=1",
+					"JUCE_MODULE_AVAILABLE_juce_graphics=1",
+					"JUCE_MODULE_AVAILABLE_juce_gui_basics=1",
+					"JUCE_GLOBAL_MODULE_SETTINGS_INCLUDED=1",
+					"JUCE_STRICT_REFCOUNTEDPOINTER=1",
+					"JUCE_STANDALONE_APPLICATION=1",
+					"HAVE_UNISTD_H=1",
+					"HAVE_CONFIG_H=1",
+					"JUCER_XCODE_MAC_F6D2F4CF=1",
+					"JUCE_APP_VERSION=1.0.0",
+					"JUCE_APP_VERSION_HEX=0x10000",
+					"JucePlugin_Build_VST=0",
+					"JucePlugin_Build_VST3=0",
+					"JucePlugin_Build_AU=0",
+					"JucePlugin_Build_AUv3=0",
+					"JucePlugin_Build_RTAS=0",
+					"JucePlugin_Build_AAX=0",
+					"JucePlugin_Build_Standalone=0",
+					"JucePlugin_Build_Unity=0",
+				);
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/../../JuceLibraryCode",
+					"$(HOME)/JUCE/modules",
+					"$(SRCROOT)/../../../../../app/lib/include",
+					"$(SRCROOT)/../../../../../app/lib/include/pocketsphinx",
+					"$(SRCROOT)/../../../../../app/lib/include/sphinxbase",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Info-App.plist;
+				INFOPLIST_PREPROCESS = NO;
+				INSTALL_PATH = "$(HOME)/Applications";
+				LLVM_LTO = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_HEADER_SEARCH_PATHS = "$(SRCROOT)/../../JuceLibraryCode $(HOME)/JUCE/modules $(SRCROOT)/../../../../../app/lib/include $(SRCROOT)/../../../../../app/lib/include/pocketsphinx $(SRCROOT)/../../../../../app/lib/include/sphinxbase";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.test;
+				PRODUCT_NAME = "NewProject";
+				USE_HEADERMAP = NO;
+				VALID_ARCHS = "i386 x86_64 arm64 arm64e";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		193195BACDB3BCAF83C1AEE0 = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14DD411FCA0E91962E66F852,
+				C9BA86E50D57AA362EB21532,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		77A359A3B9B951F77E44AF4B = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48D205C8DE97F585A568DF97,
+				6D7BB1148828990B52F87D6B,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4CB44D319C50E790D9DB0A6D /* Project object */;
+}

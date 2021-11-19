@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="DgymVQ" name="test" projectType="guiapp" useAppConfig="0"
+              addUsingNamespaceToJuceHeader="0" displaySplashScreen="1" jucerFormatVersion="1"
+              defines="HAVE_UNISTD_H=1 HAVE_CONFIG_H=1" headerPath="../../../../../app/lib/include&#10;../../../../../app/lib/include/pocketsphinx&#10;../../../../../app/lib/include/sphinxbase">
+  <MAINGROUP id="CAwKre" name="test">
+    <GROUP id="{8422FB98-AB27-9056-E45F-EC76928A8C7A}" name="lib">
+      <GROUP id="{5429B2C8-7455-8B1F-27C7-F290485CB044}" name="include">
+        <GROUP id="{340E45CA-45D8-0EB8-1174-055529F63AC6}" name="pocketsphinx">
+          <FILE id="ReocLB" name="cmdln_macro.h" compile="0" resource="0" file="../../../app/lib/include/pocketsphinx/cmdln_macro.h"/>
+          <FILE id="ZijSdK" name="pocketsphinx.h" compile="0" resource="0" file="../../../app/lib/include/pocketsphinx/pocketsphinx.h"/>
+          <FILE id="WdRLrI" name="pocketsphinx_export.h" compile="0" resource="0"
+                file="../../../app/lib/include/pocketsphinx/pocketsphinx_export.h"/>
+          <FILE id="PHbKhm" name="ps_lattice.h" compile="0" resource="0" file="../../../app/lib/include/pocketsphinx/ps_lattice.h"/>
+          <FILE id="gnbVwP" name="ps_mllr.h" compile="0" resource="0" file="../../../app/lib/include/pocketsphinx/ps_mllr.h"/>
+          <FILE id="ZrYoDs" name="ps_search.h" compile="0" resource="0" file="../../../app/lib/include/pocketsphinx/ps_search.h"/>
+        </GROUP>
+        <GROUP id="{21669B80-3F0E-FAD6-0208-E6615DE4A372}" name="sphinxbase">
+          <FILE id="tl7mzk" name="ad.h" compile="0" resource="0" file="../../../app/lib/include/sphinxbase/ad.h"/>
+          <FILE id="Kf0i5a" name="agc.h" compile="0" resource="0" file="../../../app/lib/include/sphinxbase/agc.h"/>
+          <FILE id="O983d3" name="bio.h" compile="0" resource="0" file="../../../app/lib/include/sphinxbase/bio.h"/>
+          <FILE id="QJo4ik" name="bitarr.h" compile="0" resource="0" file="../../../app/lib/include/sphinxbase/bitarr.h"/>
+          <FILE id="WA6X5B" name="bitvec.h" compile="0" resource="0" file="../../../app/lib/include/sphinxbase/bitvec.h"/>
+          <FILE id="SJcTh3" name="byteorder.h" compile="0" resource="0" file="../../../app/lib/include/sphinxbase/byteorder.h"/>
+          <FILE id="KELFvp" name="case.h" compile="0" resource="0" file="../../../app/lib/include/sphinxbase/case.h"/>
+          <FILE id="mCd9IR" name="ckd_alloc.h" compile="0" resource="0" file="../../../app/lib/include/sphinxbase/ckd_alloc.h"/>
+          <FILE id="fuJcM1" name="clapack_lite.h" compile="0" resource="0" file="../../../app/lib/include/sphinxbase/clapack_lite.h"/>
+          <FILE id="o8ngjr" name="cmd_ln.h" compile="0" resource="0" file="../../../app/lib/include/sphinxbase/cmd_ln.h"/>
+          <FILE id="AwIGP9" name="cmn.h" compile="0" resource="0" file="../../../app/lib/include/sphinxbase/cmn.h"/>
+          <FILE id="qet3cI" name="err.h" compile="0" resource="0" file="../../../app/lib/include/sphinxbase/err.h"/>
+          <FILE id="rKmv15" name="f2c.h" compile="0" resource="0" file="../../../app/lib/include/sphinxbase/f2c.h"/>
+          <FILE id="cw58RF" name="fe.h" compile="0" resource="0" file="../../../app/lib/include/sphinxbase/fe.h"/>
+          <FILE id="IBxWVZ" name="feat.h" compile="0" resource="0" file="../../../app/lib/include/sphinxbase/feat.h"/>
+          <FILE id="qfaAFS" name="filename.h" compile="0" resource="0" file="../../../app/lib/include/sphinxbase/filename.h"/>
+          <FILE id="i4onsm" name="fixpoint.h" compile="0" resource="0" file="../../../app/lib/include/sphinxbase/fixpoint.h"/>
+          <FILE id="t4FkOM" name="fsg_model.h" compile="0" resource="0" file="../../../app/lib/include/sphinxbase/fsg_model.h"/>
+          <FILE id="as6Prf" name="genrand.h" compile="0" resource="0" file="../../../app/lib/include/sphinxbase/genrand.h"/>
+          <FILE id="UMMLM2" name="glist.h" compile="0" resource="0" file="../../../app/lib/include/sphinxbase/glist.h"/>
+          <FILE id="IODo5Y" name="hash_table.h" compile="0" resource="0" file="../../../app/lib/include/sphinxbase/hash_table.h"/>
+          <FILE id="ztWl7H" name="heap.h" compile="0" resource="0" file="../../../app/lib/include/sphinxbase/heap.h"/>
+          <FILE id="U2ykgQ" name="jsgf.h" compile="0" resource="0" file="../../../app/lib/include/sphinxbase/jsgf.h"/>
+          <FILE id="vYf7fD" name="listelem_alloc.h" compile="0" resource="0"
+                file="../../../app/lib/include/sphinxbase/listelem_alloc.h"/>
+          <FILE id="cRjwun" name="logmath.h" compile="0" resource="0" file="../../../app/lib/include/sphinxbase/logmath.h"/>
+          <FILE id="XgEwFO" name="matrix.h" compile="0" resource="0" file="../../../app/lib/include/sphinxbase/matrix.h"/>
+          <FILE id="RqRsWM" name="mmio.h" compile="0" resource="0" file="../../../app/lib/include/sphinxbase/mmio.h"/>
+          <FILE id="ocBLgn" name="ngram_model.h" compile="0" resource="0" file="../../../app/lib/include/sphinxbase/ngram_model.h"/>
+          <FILE id="Bj1YMT" name="pio.h" compile="0" resource="0" file="../../../app/lib/include/sphinxbase/pio.h"/>
+          <FILE id="ugPxuy" name="prim_type.h" compile="0" resource="0" file="../../../app/lib/include/sphinxbase/prim_type.h"/>
+          <FILE id="E5hlFy" name="priority_queue.h" compile="0" resource="0"
+                file="../../../app/lib/include/sphinxbase/priority_queue.h"/>
+          <FILE id="UStu8L" name="profile.h" compile="0" resource="0" file="../../../app/lib/include/sphinxbase/profile.h"/>
+          <FILE id="JLTkWL" name="sbthread.h" compile="0" resource="0" file="../../../app/lib/include/sphinxbase/sbthread.h"/>
+          <FILE id="kxMhs9" name="sphinxbase_export.h" compile="0" resource="0"
+                file="../../../app/lib/include/sphinxbase/sphinxbase_export.h"/>
+          <FILE id="mtN3xx" name="strfuncs.h" compile="0" resource="0" file="../../../app/lib/include/sphinxbase/strfuncs.h"/>
+          <FILE id="j4GVnb" name="yin.h" compile="0" resource="0" file="../../../app/lib/include/sphinxbase/yin.h"/>
+        </GROUP>
+        <FILE id="FwOChO" name="config.h" compile="0" resource="0" file="../../../app/lib/include/config.h"/>
+        <FILE id="pH2bBW" name="sphinx_config.h" compile="0" resource="0" file="../../../app/lib/include/sphinx_config.h"/>
+      </GROUP>
+      <GROUP id="{D41A5E36-CE19-C84B-046A-725A37483CF3}" name="src">
+        <GROUP id="{4D0E96F4-85F6-267C-D83C-D50C8BF3BB29}" name="pocketsphinx">
+          <FILE id="ECWUAo" name="acmod.c" compile="1" resource="0" file="../../../app/lib/src/pocketsphinx/acmod.c"/>
+          <FILE id="S443sv" name="acmod.h" compile="0" resource="0" file="../../../app/lib/src/pocketsphinx/acmod.h"/>
+          <FILE id="BRoZJh" name="allphone_search.c" compile="1" resource="0"
+                file="../../../app/lib/src/pocketsphinx/allphone_search.c"/>
+          <FILE id="BXhKUx" name="allphone_search.h" compile="0" resource="0"
+                file="../../../app/lib/src/pocketsphinx/allphone_search.h"/>
+          <FILE id="SGptmY" name="bin_mdef.c" compile="1" resource="0" file="../../../app/lib/src/pocketsphinx/bin_mdef.c"/>
+          <FILE id="OUTE9d" name="bin_mdef.h" compile="0" resource="0" file="../../../app/lib/src/pocketsphinx/bin_mdef.h"/>
+          <FILE id="mtNwZG" name="blkarray_list.c" compile="1" resource="0" file="../../../app/lib/src/pocketsphinx/blkarray_list.c"/>
+          <FILE id="B1SkJi" name="blkarray_list.h" compile="0" resource="0" file="../../../app/lib/src/pocketsphinx/blkarray_list.h"/>
+          <FILE id="ScV9ui" name="dict.c" compile="1" resource="0" file="../../../app/lib/src/pocketsphinx/dict.c"/>
+          <FILE id="CYvetR" name="dict.h" compile="0" resource="0" file="../../../app/lib/src/pocketsphinx/dict.h"/>
+          <FILE id="dFoGVK" name="dict2pid.c" compile="1" resource="0" file="../../../app/lib/src/pocketsphinx/dict2pid.c"/>
+          <FILE id="EGHuwj" name="dict2pid.h" compile="0" resource="0" file="../../../app/lib/src/pocketsphinx/dict2pid.h"/>
+          <FILE id="eB52ju" name="fast_ptm.txt" compile="0" resource="1" file="../../../app/lib/src/pocketsphinx/fast_ptm.txt"/>
+          <FILE id="h0TAyu" name="fsg_history.c" compile="1" resource="0" file="../../../app/lib/src/pocketsphinx/fsg_history.c"/>
+          <FILE id="vnaV4R" name="fsg_history.h" compile="0" resource="0" file="../../../app/lib/src/pocketsphinx/fsg_history.h"/>
+          <FILE id="XE0Z6X" name="fsg_lextree.c" compile="1" resource="0" file="../../../app/lib/src/pocketsphinx/fsg_lextree.c"/>
+          <FILE id="tb8hYU" name="fsg_lextree.h" compile="0" resource="0" file="../../../app/lib/src/pocketsphinx/fsg_lextree.h"/>
+          <FILE id="BvpzLF" name="fsg_search.c" compile="1" resource="0" file="../../../app/lib/src/pocketsphinx/fsg_search.c"/>
+          <FILE id="WAKTj6" name="fsg_search_internal.h" compile="0" resource="0"
+                file="../../../app/lib/src/pocketsphinx/fsg_search_internal.h"/>
+          <FILE id="LwUbBZ" name="hmm.c" compile="1" resource="0" file="../../../app/lib/src/pocketsphinx/hmm.c"/>
+          <FILE id="DmilOf" name="hmm.h" compile="0" resource="0" file="../../../app/lib/src/pocketsphinx/hmm.h"/>
+          <FILE id="zuWPLs" name="kws_detections.c" compile="1" resource="0"
+                file="../../../app/lib/src/pocketsphinx/kws_detections.c"/>
+          <FILE id="y8drhe" name="kws_detections.h" compile="0" resource="0"
+                file="../../../app/lib/src/pocketsphinx/kws_detections.h"/>
+          <FILE id="IgUqFP" name="kws_search.c" compile="1" resource="0" file="../../../app/lib/src/pocketsphinx/kws_search.c"/>
+          <FILE id="roDje5" name="kws_search.h" compile="0" resource="0" file="../../../app/lib/src/pocketsphinx/kws_search.h"/>
+          <FILE id="rHeByG" name="mdef.c" compile="1" resource="0" file="../../../app/lib/src/pocketsphinx/mdef.c"/>
+          <FILE id="cQf7B7" name="mdef.h" compile="0" resource="0" file="../../../app/lib/src/pocketsphinx/mdef.h"/>
+          <FILE id="t5GY0B" name="ms_gauden.c" compile="1" resource="0" file="../../../app/lib/src/pocketsphinx/ms_gauden.c"/>
+          <FILE id="aVpMhU" name="ms_gauden.h" compile="0" resource="0" file="../../../app/lib/src/pocketsphinx/ms_gauden.h"/>
+          <FILE id="JBl8KC" name="ms_mgau.c" compile="1" resource="0" file="../../../app/lib/src/pocketsphinx/ms_mgau.c"/>
+          <FILE id="q5F4m5" name="ms_mgau.h" compile="0" resource="0" file="../../../app/lib/src/pocketsphinx/ms_mgau.h"/>
+          <FILE id="liFLEE" name="ms_senone.c" compile="1" resource="0" file="../../../app/lib/src/pocketsphinx/ms_senone.c"/>
+          <FILE id="h4qjpw" name="ms_senone.h" compile="0" resource="0" file="../../../app/lib/src/pocketsphinx/ms_senone.h"/>
+          <FILE id="MCqNXh" name="ngram_search.c" compile="1" resource="0" file="../../../app/lib/src/pocketsphinx/ngram_search.c"/>
+          <FILE id="JOFBve" name="ngram_search.h" compile="0" resource="0" file="../../../app/lib/src/pocketsphinx/ngram_search.h"/>
+          <FILE id="Hx4WpH" name="ngram_search_fwdflat.c" compile="1" resource="0"
+                file="../../../app/lib/src/pocketsphinx/ngram_search_fwdflat.c"/>
+          <FILE id="jnwbyZ" name="ngram_search_fwdflat.h" compile="0" resource="0"
+                file="../../../app/lib/src/pocketsphinx/ngram_search_fwdflat.h"/>
+          <FILE id="R1nyv8" name="ngram_search_fwdtree.c" compile="1" resource="0"
+                file="../../../app/lib/src/pocketsphinx/ngram_search_fwdtree.c"/>
+          <FILE id="ckUZ9Y" name="ngram_search_fwdtree.h" compile="0" resource="0"
+                file="../../../app/lib/src/pocketsphinx/ngram_search_fwdtree.h"/>
+          <FILE id="BNyBsn" name="phone_loop_search.c" compile="1" resource="0"
+                file="../../../app/lib/src/pocketsphinx/phone_loop_search.c"/>
+          <FILE id="BW5yW5" name="phone_loop_search.h" compile="0" resource="0"
+                file="../../../app/lib/src/pocketsphinx/phone_loop_search.h"/>
+          <FILE id="ATQ7Ps" name="pocketsphinx.c" compile="1" resource="0" file="../../../app/lib/src/pocketsphinx/pocketsphinx.c"/>
+          <FILE id="OIbRtz" name="pocketsphinx_internal.h" compile="0" resource="0"
+                file="../../../app/lib/src/pocketsphinx/pocketsphinx_internal.h"/>
+          <FILE id="YNROG3" name="ps_alignment.c" compile="1" resource="0" file="../../../app/lib/src/pocketsphinx/ps_alignment.c"/>
+          <FILE id="BkaK0c" name="ps_alignment.h" compile="0" resource="0" file="../../../app/lib/src/pocketsphinx/ps_alignment.h"/>
+          <FILE id="gmRIGL" name="ps_lattice.c" compile="1" resource="0" file="../../../app/lib/src/pocketsphinx/ps_lattice.c"/>
+          <FILE id="oiVBBM" name="ps_lattice_internal.h" compile="0" resource="0"
+                file="../../../app/lib/src/pocketsphinx/ps_lattice_internal.h"/>
+          <FILE id="K86O7e" name="ps_mllr.c" compile="1" resource="0" file="../../../app/lib/src/pocketsphinx/ps_mllr.c"/>
+          <FILE id="oFpyZl" name="ptm_mgau.c" compile="1" resource="0" file="../../../app/lib/src/pocketsphinx/ptm_mgau.c"/>
+          <FILE id="YQFgoM" name="ptm_mgau.h" compile="0" resource="0" file="../../../app/lib/src/pocketsphinx/ptm_mgau.h"/>
+          <FILE id="Zb8hVB" name="s2_semi_mgau.c" compile="1" resource="0" file="../../../app/lib/src/pocketsphinx/s2_semi_mgau.c"/>
+          <FILE id="vK4MhV" name="s2_semi_mgau.h" compile="0" resource="0" file="../../../app/lib/src/pocketsphinx/s2_semi_mgau.h"/>
+          <FILE id="K3ZcFg" name="s3types.h" compile="0" resource="0" file="../../../app/lib/src/pocketsphinx/s3types.h"/>
+          <FILE id="VHJnUO" name="state_align_search.c" compile="1" resource="0"
+                file="../../../app/lib/src/pocketsphinx/state_align_search.c"/>
+          <FILE id="UPBFcP" name="state_align_search.h" compile="0" resource="0"
+                file="../../../app/lib/src/pocketsphinx/state_align_search.h"/>
+          <FILE id="OBDPge" name="tied_mgau_common.h" compile="0" resource="0"
+                file="../../../app/lib/src/pocketsphinx/tied_mgau_common.h"/>
+          <FILE id="jZLj1d" name="tmat.c" compile="1" resource="0" file="../../../app/lib/src/pocketsphinx/tmat.c"/>
+          <FILE id="YdtKW9" name="tmat.h" compile="0" resource="0" file="../../../app/lib/src/pocketsphinx/tmat.h"/>
+          <FILE id="VQWNtp" name="vector.c" compile="1" resource="0" file="../../../app/lib/src/pocketsphinx/vector.c"/>
+          <FILE id="AZwAUk" name="vector.h" compile="0" resource="0" file="../../../app/lib/src/pocketsphinx/vector.h"/>
+        </GROUP>
+        <GROUP id="{5B167E42-3065-F011-DB0C-67D2BB0283B7}" name="sphinxad">
+          <FILE id="pqnu9c" name="ad_alsa.c" compile="0" resource="0" file="../../../app/lib/src/sphinxad/ad_alsa.c"/>
+          <FILE id="XLa62k" name="ad_base.c" compile="1" resource="0" file="../../../app/lib/src/sphinxad/ad_base.c"/>
+          <FILE id="kEZ5FV" name="ad_openal.c" compile="1" resource="0" file="../../../app/lib/src/sphinxad/ad_openal.c"/>
+          <FILE id="N5PX9J" name="ad_oss.c" compile="0" resource="0" file="../../../app/lib/src/sphinxad/ad_oss.c"/>
+          <FILE id="bA0rlV" name="ad_pulse.c" compile="0" resource="0" file="../../../app/lib/src/sphinxad/ad_pulse.c"/>
+          <FILE id="NgnJvA" name="ad_win32.c" compile="0" resource="0" file="../../../app/lib/src/sphinxad/ad_win32.c"/>
+        </GROUP>
+        <GROUP id="{EFEC3C6F-1AA8-FC04-C5CC-C43282ABC871}" name="sphinxbase">
+          <GROUP id="{E5854FA8-FAFF-4F5C-56FB-A1B7C668619A}" name="fe">
+            <FILE id="JdCvBu" name="fe_interface.c" compile="1" resource="0" file="../../../app/lib/src/sphinxbase/fe/fe_interface.c"/>
+            <FILE id="OVif7s" name="fe_internal.h" compile="0" resource="0" file="../../../app/lib/src/sphinxbase/fe/fe_internal.h"/>
+            <FILE id="nkgKIF" name="fe_noise.c" compile="1" resource="0" file="../../../app/lib/src/sphinxbase/fe/fe_noise.c"/>
+            <FILE id="JXiM56" name="fe_noise.h" compile="0" resource="0" file="../../../app/lib/src/sphinxbase/fe/fe_noise.h"/>
+            <FILE id="psauuH" name="fe_prespch_buf.c" compile="1" resource="0"
+                  file="../../../app/lib/src/sphinxbase/fe/fe_prespch_buf.c"/>
+            <FILE id="fuCV6H" name="fe_prespch_buf.h" compile="0" resource="0"
+                  file="../../../app/lib/src/sphinxbase/fe/fe_prespch_buf.h"/>
+            <FILE id="X0uoJE" name="fe_sigproc.c" compile="1" resource="0" file="../../../app/lib/src/sphinxbase/fe/fe_sigproc.c"/>
+            <FILE id="z3D5oQ" name="fe_type.h" compile="0" resource="0" file="../../../app/lib/src/sphinxbase/fe/fe_type.h"/>
+            <FILE id="M43jXR" name="fe_warp.c" compile="1" resource="0" file="../../../app/lib/src/sphinxbase/fe/fe_warp.c"/>
+            <FILE id="sp6TRP" name="fe_warp.h" compile="0" resource="0" file="../../../app/lib/src/sphinxbase/fe/fe_warp.h"/>
+            <FILE id="c64ald" name="fe_warp_affine.c" compile="1" resource="0"
+                  file="../../../app/lib/src/sphinxbase/fe/fe_warp_affine.c"/>
+            <FILE id="V1DDCm" name="fe_warp_affine.h" compile="0" resource="0"
+                  file="../../../app/lib/src/sphinxbase/fe/fe_warp_affine.h"/>
+            <FILE id="a7IGTd" name="fe_warp_inverse_linear.c" compile="1" resource="0"
+                  file="../../../app/lib/src/sphinxbase/fe/fe_warp_inverse_linear.c"/>
+            <FILE id="Z1P03t" name="fe_warp_inverse_linear.h" compile="0" resource="0"
+                  file="../../../app/lib/src/sphinxbase/fe/fe_warp_inverse_linear.h"/>
+            <FILE id="vOgYGw" name="fe_warp_piecewise_linear.c" compile="1" resource="0"
+                  file="../../../app/lib/src/sphinxbase/fe/fe_warp_piecewise_linear.c"/>
+            <FILE id="TmSdVE" name="fe_warp_piecewise_linear.h" compile="0" resource="0"
+                  file="../../../app/lib/src/sphinxbase/fe/fe_warp_piecewise_linear.h"/>
+            <FILE id="ZGElE7" name="fixlog.c" compile="1" resource="0" file="../../../app/lib/src/sphinxbase/fe/fixlog.c"/>
+            <FILE id="zKHRcS" name="yin.c" compile="1" resource="0" file="../../../app/lib/src/sphinxbase/fe/yin.c"/>
+          </GROUP>
+          <GROUP id="{F1A57F52-700A-9135-5E43-3AE211DE50F5}" name="feat">
+            <FILE id="qGTcgk" name="agc.c" compile="1" resource="0" file="../../../app/lib/src/sphinxbase/feat/agc.c"/>
+            <FILE id="oR0cCe" name="cmn.c" compile="1" resource="0" file="../../../app/lib/src/sphinxbase/feat/cmn.c"/>
+            <FILE id="DdrPtG" name="cmn_live.c" compile="1" resource="0" file="../../../app/lib/src/sphinxbase/feat/cmn_live.c"/>
+            <FILE id="wbBggq" name="feat.c" compile="1" resource="0" file="../../../app/lib/src/sphinxbase/feat/feat.c"/>
+            <FILE id="lFezSQ" name="lda.c" compile="1" resource="0" file="../../../app/lib/src/sphinxbase/feat/lda.c"/>
+          </GROUP>
+          <GROUP id="{DE3F9DD5-1C79-CCA8-733B-A607B711F8DD}" name="lm">
+            <FILE id="U8YAmC" name="fsg_model.c" compile="1" resource="0" file="../../../app/lib/src/sphinxbase/lm/fsg_model.c"/>
+            <FILE id="wgUemq" name="jsgf.c" compile="1" resource="0" file="../../../app/lib/src/sphinxbase/lm/jsgf.c"/>
+            <FILE id="uCxSOq" name="jsgf_internal.h" compile="0" resource="0" file="../../../app/lib/src/sphinxbase/lm/jsgf_internal.h"/>
+            <FILE id="QziRZ6" name="jsgf_parser.c" compile="1" resource="0" file="../../../app/lib/src/sphinxbase/lm/jsgf_parser.c"/>
+            <FILE id="jdBtgT" name="jsgf_parser.h" compile="0" resource="0" file="../../../app/lib/src/sphinxbase/lm/jsgf_parser.h"/>
+            <FILE id="NPhawA" name="jsgf_scanner.c" compile="1" resource="0" file="../../../app/lib/src/sphinxbase/lm/jsgf_scanner.c"/>
+            <FILE id="DLQbve" name="jsgf_scanner.h" compile="0" resource="0" file="../../../app/lib/src/sphinxbase/lm/jsgf_scanner.h"/>
+            <FILE id="oJS83a" name="lm_trie.c" compile="1" resource="0" file="../../../app/lib/src/sphinxbase/lm/lm_trie.c"/>
+            <FILE id="nj8nSk" name="lm_trie.h" compile="0" resource="0" file="../../../app/lib/src/sphinxbase/lm/lm_trie.h"/>
+            <FILE id="BmVRDU" name="lm_trie_quant.c" compile="1" resource="0" file="../../../app/lib/src/sphinxbase/lm/lm_trie_quant.c"/>
+            <FILE id="VcfFdX" name="lm_trie_quant.h" compile="0" resource="0" file="../../../app/lib/src/sphinxbase/lm/lm_trie_quant.h"/>
+            <FILE id="ddYWWV" name="ngram_model.c" compile="1" resource="0" file="../../../app/lib/src/sphinxbase/lm/ngram_model.c"/>
+            <FILE id="b2DAhH" name="ngram_model_internal.h" compile="0" resource="0"
+                  file="../../../app/lib/src/sphinxbase/lm/ngram_model_internal.h"/>
+            <FILE id="H4QXAA" name="ngram_model_set.c" compile="1" resource="0"
+                  file="../../../app/lib/src/sphinxbase/lm/ngram_model_set.c"/>
+            <FILE id="R7EYjg" name="ngram_model_set.h" compile="0" resource="0"
+                  file="../../../app/lib/src/sphinxbase/lm/ngram_model_set.h"/>
+            <FILE id="gUjw1u" name="ngram_model_trie.c" compile="1" resource="0"
+                  file="../../../app/lib/src/sphinxbase/lm/ngram_model_trie.c"/>
+            <FILE id="kI7Z3a" name="ngram_model_trie.h" compile="0" resource="0"
+                  file="../../../app/lib/src/sphinxbase/lm/ngram_model_trie.h"/>
+            <FILE id="UMkQRG" name="ngrams_raw.c" compile="1" resource="0" file="../../../app/lib/src/sphinxbase/lm/ngrams_raw.c"/>
+            <FILE id="FVhhJ9" name="ngrams_raw.h" compile="0" resource="0" file="../../../app/lib/src/sphinxbase/lm/ngrams_raw.h"/>
+          </GROUP>
+          <GROUP id="{9CDEB51C-43C7-46B8-1931-2CA1CA095E35}" name="util">
+            <FILE id="prCgOf" name="bio.c" compile="1" resource="0" file="../../../app/lib/src/sphinxbase/util/bio.c"/>
+            <FILE id="aYhnHW" name="bitarr.c" compile="1" resource="0" file="../../../app/lib/src/sphinxbase/util/bitarr.c"/>
+            <FILE id="RfzwUc" name="bitvec.c" compile="1" resource="0" file="../../../app/lib/src/sphinxbase/util/bitvec.c"/>
+            <FILE id="WAwqfW" name="blas_lite.c" compile="1" resource="0" file="../../../app/lib/src/sphinxbase/util/blas_lite.c"/>
+            <FILE id="sjTCW9" name="case.c" compile="1" resource="0" file="../../../app/lib/src/sphinxbase/util/case.c"/>
+            <FILE id="anx8g0" name="ckd_alloc.c" compile="1" resource="0" file="../../../app/lib/src/sphinxbase/util/ckd_alloc.c"/>
+            <FILE id="Zu4tKG" name="cmd_ln.c" compile="1" resource="0" file="../../../app/lib/src/sphinxbase/util/cmd_ln.c"/>
+            <FILE id="fSkfSe" name="dtoa.c" compile="1" resource="0" file="../../../app/lib/src/sphinxbase/util/dtoa.c"/>
+            <FILE id="NHTHee" name="err.c" compile="1" resource="0" file="../../../app/lib/src/sphinxbase/util/err.c"/>
+            <FILE id="v87Dnl" name="errno.c" compile="1" resource="0" file="../../../app/lib/src/sphinxbase/util/errno.c"/>
+            <FILE id="OBemOO" name="f2c_lite.c" compile="1" resource="0" file="../../../app/lib/src/sphinxbase/util/f2c_lite.c"/>
+            <FILE id="C2UjSy" name="filename.c" compile="1" resource="0" file="../../../app/lib/src/sphinxbase/util/filename.c"/>
+            <FILE id="e9sY1g" name="genrand.c" compile="1" resource="0" file="../../../app/lib/src/sphinxbase/util/genrand.c"/>
+            <FILE id="aLHhhB" name="glist.c" compile="1" resource="0" file="../../../app/lib/src/sphinxbase/util/glist.c"/>
+            <FILE id="hdKgt5" name="hash_table.c" compile="1" resource="0" file="../../../app/lib/src/sphinxbase/util/hash_table.c"/>
+            <FILE id="Lz9prG" name="heap.c" compile="1" resource="0" file="../../../app/lib/src/sphinxbase/util/heap.c"/>
+            <FILE id="z5HlAT" name="listelem_alloc.c" compile="1" resource="0"
+                  file="../../../app/lib/src/sphinxbase/util/listelem_alloc.c"/>
+            <FILE id="o2Hvjt" name="logmath.c" compile="1" resource="0" file="../../../app/lib/src/sphinxbase/util/logmath.c"/>
+            <FILE id="SK1oVy" name="matrix.c" compile="1" resource="0" file="../../../app/lib/src/sphinxbase/util/matrix.c"/>
+            <FILE id="q2ibSV" name="mmio.c" compile="1" resource="0" file="../../../app/lib/src/sphinxbase/util/mmio.c"/>
+            <FILE id="RiL8t0" name="pio.c" compile="1" resource="0" file="../../../app/lib/src/sphinxbase/util/pio.c"/>
+            <FILE id="oAEjMb" name="priority_queue.c" compile="1" resource="0"
+                  file="../../../app/lib/src/sphinxbase/util/priority_queue.c"/>
+            <FILE id="oXxVmy" name="profile.c" compile="1" resource="0" file="../../../app/lib/src/sphinxbase/util/profile.c"/>
+            <FILE id="WnlrhO" name="sbthread.c" compile="1" resource="0" file="../../../app/lib/src/sphinxbase/util/sbthread.c"/>
+            <FILE id="ok977R" name="slamch.c" compile="1" resource="0" file="../../../app/lib/src/sphinxbase/util/slamch.c"/>
+            <FILE id="FQg1KZ" name="slapack_lite.c" compile="1" resource="0" file="../../../app/lib/src/sphinxbase/util/slapack_lite.c"/>
+            <FILE id="XsLZWP" name="strfuncs.c" compile="1" resource="0" file="../../../app/lib/src/sphinxbase/util/strfuncs.c"/>
+          </GROUP>
+        </GROUP>
+      </GROUP>
+    </GROUP>
+    <GROUP id="{A8C01238-C326-BD03-C158-D5A838E4AEA6}" name="Source">
+      <FILE id="bSTafF" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>
+      <FILE id="bAFB2H" name="MainComponent.h" compile="0" resource="0" file="Source/MainComponent.h"/>
+      <FILE id="VtNATl" name="MainComponent.cpp" compile="1" resource="0"
+            file="Source/MainComponent.cpp"/>
+    </GROUP>
+  </MAINGROUP>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1"/>
+  <EXPORTFORMATS>
+    <XCODE_MAC targetFolder="Builds/MacOSX">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="NewProject"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="NewProject"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_core" path="../../../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../../../../../JUCE/modules"/>
+      </MODULEPATHS>
+    </XCODE_MAC>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+  </MODULES>
+</JUCERPROJECT>
