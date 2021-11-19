@@ -13,9 +13,6 @@ MainComponent::MainComponent()
     textEditor.setMultiLine (true);
     textEditor.setCaretVisible (false);
 
-    auto audioDeviceSetup = deviceManager.getAudioDeviceSetup();
-    audioDeviceSetup.sampleRate = 16000;
-    deviceManager.setAudioDeviceSetup (audioDeviceSetup, true);
     deviceManager.addAudioCallback (&liveAudioScroller);
     setSize (800, 600);
 

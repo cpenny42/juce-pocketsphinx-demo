@@ -54,7 +54,7 @@ const StringArray& Decoder::getUtterances()
 void Decoder::prepareToPlay (int samplesPerBlockExpected, double sampleRate)
 {
     failed = false;
-    config = cmd_ln_init (NULL, ps_args(), TRUE, "-hmm", hmm, "-lm", lm, "-dict", dict, "-samprate", "96000", "-nfft", "4096", NULL);
+    config = cmd_ln_init (NULL, ps_args(), TRUE, "-hmm", hmm, "-lm", lm, "-dict", dict, "-samprate", String(sampleRate).toRawUTF8(), "-nfft", "4096", NULL);
     if (config == NULL)
     {
         fprintf (stderr, "Failed to create config object, see log for details\n");

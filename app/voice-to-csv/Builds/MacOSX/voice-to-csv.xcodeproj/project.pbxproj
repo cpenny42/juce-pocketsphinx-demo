@@ -35,9 +35,9 @@
 		E1C5B8C06F954404748F8D2C /* include_juce_core.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5BC1DC8625892F6671D15EC3 /* include_juce_core.mm */; };
 		E7198EF20CBD50E26840632C /* Main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1F26EE152D66A28808488FB7 /* Main.cpp */; };
 		EB4244C76B2AF58A916FC4DD /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6497107E5389C4A1A9D5F14 /* Accelerate.framework */; };
-		FA158D3527473F2B00DD918C /* libpocketsphinx.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FA158D3227473F2B00DD918C /* libpocketsphinx.a */; };
-		FA158D3627473F2B00DD918C /* libsphinxbase.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FA158D3327473F2B00DD918C /* libsphinxbase.a */; };
-		FA158D3727473F2B00DD918C /* libsphinxad.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FA158D3427473F2B00DD918C /* libsphinxad.a */; };
+		FA44E077274771F7006D32CC /* libsphinxbase.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FA44E074274771F7006D32CC /* libsphinxbase.a */; };
+		FA44E078274771F7006D32CC /* libpocketsphinx.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FA44E075274771F7006D32CC /* libpocketsphinx.a */; };
+		FA44E079274771F7006D32CC /* libsphinxad.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FA44E076274771F7006D32CC /* libsphinxad.a */; };
 		FBD884B363DDC226E67B4FEA /* include_juce_events.mm in Sources */ = {isa = PBXBuildFile; fileRef = C7E97BD6B25463B466A97DFC /* include_juce_events.mm */; };
 /* End PBXBuildFile section */
 
@@ -85,9 +85,9 @@
 		E669FE2FDC70A5D385B5B818 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
 		F11099118583F6312B4B1144 /* RecentFilesMenuTemplate.nib */ = {isa = PBXFileReference; lastKnownFileType = file.nib; path = RecentFilesMenuTemplate.nib; sourceTree = SOURCE_ROOT; };
 		F86F39734F1FA7343989646D /* include_juce_audio_formats.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = include_juce_audio_formats.mm; path = ../../JuceLibraryCode/include_juce_audio_formats.mm; sourceTree = SOURCE_ROOT; };
-		FA158D3227473F2B00DD918C /* libpocketsphinx.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libpocketsphinx.a; sourceTree = "<group>"; };
-		FA158D3327473F2B00DD918C /* libsphinxbase.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libsphinxbase.a; sourceTree = "<group>"; };
-		FA158D3427473F2B00DD918C /* libsphinxad.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libsphinxad.a; sourceTree = "<group>"; };
+		FA44E074274771F7006D32CC /* libsphinxbase.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libsphinxbase.a; sourceTree = "<group>"; };
+		FA44E075274771F7006D32CC /* libpocketsphinx.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libpocketsphinx.a; sourceTree = "<group>"; };
+		FA44E076274771F7006D32CC /* libsphinxad.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libsphinxad.a; sourceTree = "<group>"; };
 		FB5C1DAA287FB155BDEBB711 /* Info-App.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info-App.plist"; sourceTree = SOURCE_ROOT; };
 		FB81B455A1EBEA1670CBAF48 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		FBC41EB14BE11A966011312F /* include_juce_gui_extra.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = include_juce_gui_extra.mm; path = ../../JuceLibraryCode/include_juce_gui_extra.mm; sourceTree = SOURCE_ROOT; };
@@ -100,16 +100,16 @@
 			files = (
 				EB4244C76B2AF58A916FC4DD /* Accelerate.framework in Frameworks */,
 				1BF8F57F2A4D39CF568F5255 /* AudioToolbox.framework in Frameworks */,
-				FA158D3727473F2B00DD918C /* libsphinxad.a in Frameworks */,
+				FA44E079274771F7006D32CC /* libsphinxad.a in Frameworks */,
 				A4D88E37AE5353BB73E92953 /* Carbon.framework in Frameworks */,
+				FA44E078274771F7006D32CC /* libpocketsphinx.a in Frameworks */,
 				7051A72255891D667A2640EB /* Cocoa.framework in Frameworks */,
+				FA44E077274771F7006D32CC /* libsphinxbase.a in Frameworks */,
 				74DCAC60CF421CA05EDD9986 /* CoreAudio.framework in Frameworks */,
 				D7B99D2E7EE3F4CB1C20FC27 /* CoreAudioKit.framework in Frameworks */,
 				72D5153CCF54479C93C43707 /* CoreMIDI.framework in Frameworks */,
-				FA158D3527473F2B00DD918C /* libpocketsphinx.a in Frameworks */,
 				69D7A8A1984A4480FAD528AD /* DiscRecording.framework in Frameworks */,
 				7499323A3FEDEAD622372337 /* Foundation.framework in Frameworks */,
-				FA158D3627473F2B00DD918C /* libsphinxbase.a in Frameworks */,
 				B71E1AE86FD87512D53445E8 /* IOKit.framework in Frameworks */,
 				AA360F541CE4B5337710A2FC /* OpenAL.framework in Frameworks */,
 				AE63EF0F692B59E830C66F87 /* QuartzCore.framework in Frameworks */,
@@ -123,9 +123,9 @@
 		04AA2A9496F97F81DFEDAB66 /* voice-to-csv */ = {
 			isa = PBXGroup;
 			children = (
-				FA158D3227473F2B00DD918C /* libpocketsphinx.a */,
-				FA158D3427473F2B00DD918C /* libsphinxad.a */,
-				FA158D3327473F2B00DD918C /* libsphinxbase.a */,
+				FA44E075274771F7006D32CC /* libpocketsphinx.a */,
+				FA44E076274771F7006D32CC /* libsphinxad.a */,
+				FA44E074274771F7006D32CC /* libsphinxbase.a */,
 				A734AEC7187FF59B04CCBAF6 /* source */,
 			);
 			name = "voice-to-csv";
